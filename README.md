@@ -8,7 +8,7 @@
 
 원활한 릴레이 수행을 위한 규칙입니다.
 
-* 릴레이는 매일(주말 포함? 제외?) 진행하며, 각자 돌아가면서 하나의 주제를 담당합니다(발표는 하지 않습니다).
+* 릴레이는 매일 진행하며, 각자 돌아가면서 하나의 주제를 담당합니다(발표는 하지 않습니다).
 * 주제에 대한 설명과 실행 가능한 샘플 코드를 작성하여 GitHub에 업로드합니다.
     * 폴더 이름: MMDD(예: 0719)
     * 파일 이름: `README.md`(주제 설명), `app.js`(Node.js 웹 서버), `index.html`, `style.css`, `script.js`(이상 클라이언트)
@@ -22,11 +22,14 @@
 1. 해당 날짜(예: 0719)를 이름으로 한 폴더를 생성합니다.
 2. Visual Studio Code로 해당 폴더를 열고, `README.md`, `app.js`, `index.html`, `style.css`, `script.js`를 작성합니다.
     * 아래 템플릿을 참고합니다.
-3. GitHub 사이트에서 직접 파일 업로드를 수행합니다.
-    * 폴더째(예: 0719) Drag & Drop해야 합니다.
+3. GitHub 사이트에서 [Add file] > [Upload Files]를 클릭합니다.
+    ![upload-step-1](https://user-images.githubusercontent.com/52960121/126040997-8eea2198-9e44-4135-baba-82ad4edb2f9e.gif)
+
+4. 폴더째(예: 0719) Drag & Drop하여 업로드합니다.
+    ![upload-step-2](https://user-images.githubusercontent.com/52960121/126041011-677352b2-9695-461e-9dc6-706a0f7c7881.gif)
     * 수정 사항이 있을 때, 파일을 직접 수정하거나 바꿔치기할 수 있습니다.
-    * Commit Message는 생성 및 수정 시 각각 다음과 같이 해 주세요.
-        * 파일 최초 업로드: 0719 파일 생성
+    * Commit Message는 생성 및 수정 시 각각 다음과 같이 작성합니다.
+        * 파일 최초 업로드: 0719 파일 업로드
         * 파일 수정: 0719 파일 수정 + 아래 칸(Add an optional extended description...)에 자세한 수정사항 작성
 
 # 커리큘럼
