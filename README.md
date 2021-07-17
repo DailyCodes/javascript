@@ -21,7 +21,7 @@
 
 1. 해당 날짜(예: 0719)를 이름으로 한 폴더를 생성합니다.
 2. Visual Studio Code로 해당 폴더를 열고, `README.md`, `app.js`, `index.html`, `style.css`, `script.js`를 작성합니다.
-    * 아래 템플릿을 참고합니다.
+    * 아래 템플릿을 복사 및 붙여넣기하거나, [template](https://github.com/DailyCodes/javascript/tree/main/template) 폴더의 파일들을 다운로드하여 사용합니다.
 3. GitHub 사이트에서 [Add file] > [Upload Files]를 클릭합니다.
     ![upload-step-1](https://user-images.githubusercontent.com/52960121/126040997-8eea2198-9e44-4135-baba-82ad4edb2f9e.gif)
 
