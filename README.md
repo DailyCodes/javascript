@@ -4,34 +4,6 @@
 
 자료조사를 통한 깔끔한 설명과 함께, 웹에서 구동 가능한 샘플 코드까지 만들어 봅시다.
 
-## 기본 규칙
-
-원활한 릴레이 수행을 위한 규칙입니다.
-
-* 릴레이는 매일 진행하며, 각자 돌아가면서 하나의 주제를 담당합니다(발표는 하지 않습니다).
-* 주제에 대한 설명과 실행 가능한 샘플 코드를 작성하여 GitHub에 업로드합니다.
-    * 폴더 이름: MMDD(예: 0719)
-    * 파일 이름: `README.md`(주제 설명), `app.js`(Node.js 웹 서버), `index.html`, `style.css`, `script.js`(이상 클라이언트)
-    * 해당일 담당자는 매일 밤 10시까지 GitHub 업로드를 수행하고, 카톡방에 링크를 올려 둡니다.
-    * GitHub Pages와 연동하여 웹에서 바로 볼 수 있도록 제공할 예정입니다(일부 페이지 제외).
-* 우선 20개 남짓의 주제로 시작하여, 기존 주제와 겹치지 않고 적당한 난이도를 가진 주제를 누구나 추가할 수 있습니다.
-* `README.md` 파일의 내용이 불충분할 경우 재작성을 요청드릴 수 있습니다.
-
-## 작성 및 업로드 순서
-
-1. 해당 날짜(예: 0719)를 이름으로 한 폴더를 생성합니다.
-2. Visual Studio Code로 해당 폴더를 열고, `README.md`, `app.js`, `index.html`, `style.css`, `script.js`를 작성합니다.
-    * 아래 템플릿을 복사 및 붙여넣기하거나, [template](https://github.com/DailyCodes/javascript/tree/main/template) 폴더의 파일들을 다운로드하여 사용합니다.
-3. GitHub 사이트에서 [Add file] > [Upload Files]를 클릭합니다.
-    ![upload-step-1](https://user-images.githubusercontent.com/52960121/126040997-8eea2198-9e44-4135-baba-82ad4edb2f9e.gif)
-
-4. 폴더째(예: 0719) Drag & Drop하여 업로드합니다.
-    ![upload-step-2](https://user-images.githubusercontent.com/52960121/126041011-677352b2-9695-461e-9dc6-706a0f7c7881.gif)
-    * 수정 사항이 있을 때, 파일을 직접 수정하거나 바꿔치기할 수 있습니다.
-    * Commit Message는 생성 및 수정 시 각각 다음과 같이 작성합니다.
-        * 파일 최초 업로드: 0719 파일 업로드
-        * 파일 수정: 0719 파일 수정 + 아래 칸(Add an optional extended description...)에 자세한 수정사항 작성
-
 # 커리큘럼
 
 비슷한 주제끼리 묶은 커리큘럼입니다. 실제 활동 순서는 이와 다를 수 있습니다.
@@ -147,6 +119,34 @@
         </tr>
     </tbody>
 </table>
+
+# 규칙
+
+원활한 릴레이 수행을 위한 규칙입니다.
+
+* 릴레이는 매일 진행하며, 각자 돌아가면서 하나의 주제를 담당합니다(발표는 하지 않습니다).
+* 주제에 대한 설명과 실행 가능한 샘플 코드를 작성하여 GitHub에 업로드합니다.
+    * 폴더 이름: MMDD(예: 0719)
+    * 파일 이름: `README.md`(주제 설명), `app.js`(Node.js 웹 서버), `index.html`, `style.css`, `script.js`(이상 클라이언트)
+    * 해당일 담당자는 매일 밤 10시까지 GitHub 업로드를 수행하고, 카톡방에 링크를 올려 둡니다.
+    * GitHub Pages와 연동하여 웹에서 바로 볼 수 있도록 제공할 예정입니다(일부 페이지 제외).
+* 우선 20개 남짓의 주제로 시작하여, 기존 주제와 겹치지 않고 적당한 난이도를 가진 주제를 누구나 추가할 수 있습니다.
+* `README.md` 파일의 내용이 불충분할 경우 재작성을 요청드릴 수 있습니다.
+
+## 작성 및 업로드 순서
+
+1. 해당 날짜(예: 0719)를 이름으로 한 폴더를 생성합니다.
+2. Visual Studio Code로 해당 폴더를 열고, `README.md`, `app.js`, `index.html`, `style.css`, `script.js`를 작성합니다.
+    * 아래 템플릿을 복사 및 붙여넣기하거나, [template](https://github.com/DailyCodes/javascript/tree/main/template) 폴더의 파일들을 다운로드하여 사용합니다.
+3. GitHub 사이트에서 [Add file] > [Upload Files]를 클릭합니다.
+    ![upload-step-1](https://user-images.githubusercontent.com/52960121/126040997-8eea2198-9e44-4135-baba-82ad4edb2f9e.gif)
+
+4. 폴더째(예: 0719) Drag & Drop하여 업로드합니다.
+    ![upload-step-2](https://user-images.githubusercontent.com/52960121/126041011-677352b2-9695-461e-9dc6-706a0f7c7881.gif)
+    * 수정 사항이 있을 때, 파일을 직접 수정하거나 바꿔치기할 수 있습니다.
+    * Commit Message는 생성 및 수정 시 각각 다음과 같이 작성합니다.
+        * 파일 최초 업로드: 0719 파일 업로드
+        * 파일 수정: 0719 파일 수정 + 아래 칸(Add an optional extended description...)에 자세한 수정사항 작성
 
 # 템플릿
 
