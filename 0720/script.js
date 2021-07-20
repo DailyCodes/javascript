@@ -1,6 +1,5 @@
 const txt = document.querySelector('p');
 const btn = document.querySelector('button');
-
 const fortuneArr = [
     '안 된다고 포기하는 순간에 될 거예요.',
     '주변 사람들을 위해 음식을 해보세요.',
