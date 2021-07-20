@@ -56,8 +56,8 @@
             <td style="text-align: left;">객체 속에 객체가 있는 중첩 구조를 만들고, 이를 각각 얕은 복사와 깊은 복사한 다음 안쪽 객체의 값을 변경하고 콘솔에 출력하기<br>- 얕은 복사에서는 원본과 복사본의 값이 동일함 (같은 객체이므로)<br>- 깊은 복사에서는 원본과 복사본의 값이 달라짐 (다른 객체이므로)</td>
         </tr>
         <tr>
-            <td style="text-align: center;">랜덤값 추출<br>(Math 객체)</td>
-            <td style="text-align: left;">오늘의 운세 만들기<br>- 랜덤한 값을 생성하여 미리 저장해 둔 운세 중 하나를 표시</td>
+           <td style="text-align: center;"><a href="/javascript/0720.html">랜덤값 추출</a><br>(Math 객체)</td>
+           <td style="text-align: left;"><a href="/javascript/0720/">오늘의 운세 만들기</a><br>- 랜덤한 값을 생성하여 미리 저장해 둔 운세 중 하나를 표시</td>
         </tr>
         <tr>
             <td style="text-align: center;">날짜와 시간<br>(Date 객체)</td>
