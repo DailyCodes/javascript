@@ -32,8 +32,8 @@
            <td style="text-align: left;"><a href="/javascript/0720/">오늘의 운세 만들기</a><br>- 랜덤한 값을 생성하여 미리 저장해 둔 운세 중 하나를 표시</td>
         </tr>
         <tr>
-            <td style="text-align: center;">날짜와 시간<br>(Date 객체)</td>
-            <td style="text-align: left;">디데이 카운터 만들기<br>- 오늘이 기준 일자로부터 며칠 지났는지(남았는지) 표시하기<br>- 기준 일자로부터 100일 후의 년.월.일 표시하기<br>- 전역일 계산기 (선택 사항 - optional)<br>- 네이버 디데이 계산기 참고</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0721.html">날짜와 시간</a><br>(Date 객체)</td>
+            <td style="text-align: left;"><a href="/javascript/0721/">디데이 카운터 만들기</a><br>- 오늘이 기준 일자로부터 며칠 지났는지(남았는지) 표시하기<br>- 기준 일자로부터 100일 후의 년.월.일 표시하기<br>- 전역일 계산기 (선택 사항 - optional)<br>- 네이버 디데이 계산기 참고</td>
         </tr>
         <tr>
             <td style="text-align: center;">정규 표현식<br>(RegExp 객체)</td>
