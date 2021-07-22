@@ -37,7 +37,7 @@
         </tr>
         <tr>
             <td style="text-align: center;"><a href="/javascript/docs/0722.html">정규 표현식</a><br>(RegExp 객체)</td>
-            <td style="text-align: left;"><a href="/javascript/docs/0722/">패턴에 맞는 데이터만 골라 보여주기</a><br>- 데이터는 <code>script.js</code> 파일에 객체 <code>{ }</code> 로 저장<br>- 가령 <code>이름/학번/학과</code>가 저장된 학생 데이터에서 이름의 패턴이 맞는 학생 출력 (단순히 이름만 출력하면 안 됨)</td>
+            <td style="text-align: left;"><a href="/javascript/0722/">패턴에 맞는 데이터만 골라 보여주기</a><br>- 데이터는 <code>script.js</code> 파일에 객체 <code>{ }</code> 로 저장<br>- 가령 <code>이름/학번/학과</code>가 저장된 학생 데이터에서 이름의 패턴이 맞는 학생 출력 (단순히 이름만 출력하면 안 됨)</td>
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="4">함수</td>
