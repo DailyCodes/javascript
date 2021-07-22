@@ -3504,15 +3504,18 @@ const profileArr = [
 
 const buttons = document.querySelectorAll("button")
 const resultDiv = document.getElementById("result")
+// 여러 글자를 넣을 때는 괄호 ()로 묶어야 함
 const patternsByFields = {
-    job: /.+[기사]/,
-    mail: /[a-zA-Z0-9._+-]+[@][naver.com]/,
-    Bday: /8/
+    job: /.+(기사)/,
+    mail: /[a-zA-Z0-9._+-]+[@](naver.com)/,
+    birthday: /[0-9]{4}[,]\s[8]/
 }
 
-const reg = ( field) => {
+// 대소문자를 구분해야 함 (field !== Field)
+// field 이름과 button의 id, patternsByField의 key 값을 모두 job, mail, birthday로 통일해야 함
+const reg = (field) => {
     return profileArr
-        .filter((obj) => obj[field].match(patternsByFields[Field]))
+        .filter((obj) => obj[field].match(patternsByFields[field]))
         .map((obj => obj.name))
 }
 
