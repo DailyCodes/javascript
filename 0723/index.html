@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+var bDisplay = true;
+function doDisplay(){
+    var con = document.getElementById("myDIV");
+    if(con.style.display=='none'){
+        con.style.display = 'block';
+    }else{
+        con.style.display = 'none';
+    }
+}
+</script>
+</head>
+<body>
+<a href="javascript:doDisplay();">> 버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기</a><br/><br/>
+<div id="myDIV">
+    <h1>경제학원론2</h1>
+    <p>좋은 아침입니다. 5분 뒤 출석체크 진행하도록 하겠습니다. -LSB</p>
+</div>
+</body>
+</html>
+
+
