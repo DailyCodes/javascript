@@ -58,8 +58,8 @@
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="3">이벤트</td>
-            <td style="text-align: center;">이벤트 기본</td>
-            <td style="text-align: left;">버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기<br>- <code>document.getElementById()</code> 및 <code>버튼명.addEventListener()</code> 활용<br>- [이벤트 삭제] 버튼: 위에 만들었던 이벤트 삭제하기 (선택 사항 - optional)</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0723.html">이벤트 기본</a></td>
+            <td style="text-align: left;"><a href="/javascript/0723/">버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기</a><br>- <code>document.getElementById()</code> 및 <code>버튼명.addEventListener()</code> 활용<br>- [이벤트 삭제] 버튼: 위에 만들었던 이벤트 삭제하기 (선택 사항 - optional)</td>
         </tr>
         <tr>
             <td style="text-align: center;">버블링, 캡처링</td>

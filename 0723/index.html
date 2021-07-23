@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-<script type="text/javascript">
-var bDisplay = true;
-function doDisplay(){
-    var con = document.getElementById("myDIV");
-    if(con.style.display=='none'){
-        con.style.display = 'block';
-    }else{
-        con.style.display = 'none';
-    }
-}
-</script>
-</head>
-<body>
-<a href="javascript:doDisplay();">> 버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기</a><br/><br/>
-<div id="myDIV">
-    <h1>경제학원론2</h1>
-    <p>좋은 아침입니다. 5분 뒤 출석체크 진행하도록 하겠습니다. -LSB</p>
-</div>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 문서 제목 작성 -->
+        <title>버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- 문서 본문 작성 -->
+        <button id="btn">버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기</button>
+        <div id="my-div">
+            <h1>경제학원론2</h1>
+            <p>좋은 아침입니다. 5분 뒤 출석체크 진행하도록 하겠습니다. -LSB</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
-
-
