@@ -43,6 +43,7 @@ EventTarget.prototype.addEventListener 메서드를 사용하여 이벤트 핸�
      `이벤트 타깃.addEventListener('이벤트 타입',이벤트 핸들러[,캡쳐 사용 여부]);`
 
 
+
     > 참고 : Ivelin Demirov, "Learn Javascript Visually", Nai inc(2014)
 
 
