@@ -20,8 +20,8 @@
     <tbody>
         <tr>
             <td style="text-align: center;" rowspan="5">객체</td>
-            <td style="text-align: center;">객체 생성자</td>
-            <td style="text-align: left;">사칙연산을 지원하는 계산기 만들기<br>- 필요한 속성 및 사칙연산 메서드를 가지는 객체를 생성하고, <code>new</code> 키워드로 생성할 수 있도록 해야 함<br>- 단, 나눗셈은 소수 둘째 자리까지만 표시 (반올림)<br>- 부호 바꾸기 (양수→음수, 음수→양수)<br>- 숫자 (0~9) 및 기호(+, -, *, /, =)는 버튼으로 만들기</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0724.html">객체 생성자</a></td>
+            <td style="text-align: left;"><a href="/javascript/0724/">사칙연산을 지원하는 계산기 만들기</a><br>- 필요한 속성 및 사칙연산 메서드를 가지는 객체를 생성하고, <code>new</code> 키워드로 생성할 수 있도록 해야 함<br>- 단, 나눗셈은 소수 둘째 자리까지만 표시 (반올림)<br>- 부호 바꾸기 (양수→음수, 음수→양수)<br>- 숫자 (0~9) 및 기호(+, -, *, /, =)는 버튼으로 만들기</td>
         </tr>
         <tr>
             <td style="text-align: center;">얕은 복사, 깊은 복사</td>

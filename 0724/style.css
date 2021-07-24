@@ -1,3 +1,36 @@
 /*
 여기에 CSS 코드를 작성합니다.
 */
+
+body {
+    text-align: center;
+}
+
+div.calc {
+    position: relative;
+    margin: auto;
+    width: 30%;
+    background: cyan;
+}
+
+div.display {
+    position: relative;
+    margin: auto;
+    top: 5px;
+    border: black solid 1px;
+    width: 90%;
+    background: lightgray;
+    text-align: right;
+    font-size: 25px;
+}
+
+button {
+    position: relative;
+    width: 20%;
+    background: yellow;
+    font-size: 30px;
+}
+
+button.num {
+    background: skyblue;
+}
