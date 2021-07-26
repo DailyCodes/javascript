@@ -65,8 +65,8 @@
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="4">함수</td>
-            <td style="text-align: center;">고차 함수</td>
-            <td style="text-align: left;">여러 수를 한꺼번에 입력받고, <code>n</code>의 배수만 출력하기<br>- 입력은 텍스트 상자에 쉼표(<code>,</code>)를 구분자로 수 나열<br>- 텍스트 박스를 하나 더 생성하여 <code>n</code> 입력<br>- 출력은 콘솔이나 <code>alert()</code> 등 편한 방법으로<br>- 반드시 고차 함수를 사용하고, 고차 함수의 인수로는 화살표 함수를 사용해야 함<br>- 응용: 여러 수를 한꺼번에 입력받고, <code>n</code>제곱하기 (선택 사항 - optional)</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0726.html">고차 함수</a></td>
+            <td style="text-align: left;"><a href="/javascript/0726/">여러 수를 한꺼번에 입력</a>받고, <code>n</code>의 배수만 출력하기<br>- 입력은 텍스트 상자에 쉼표(<code>,</code>)를 구분자로 수 나열<br>- 텍스트 박스를 하나 더 생성하여 <code>n</code> 입력<br>- 출력은 콘솔이나 <code>alert()</code> 등 편한 방법으로<br>- 반드시 고차 함수를 사용하고, 고차 함수의 인수로는 화살표 함수를 사용해야 함<br>- 응용: 여러 수를 한꺼번에 입력받고, <code>n</code>제곱하기 (선택 사항 - optional)</td>
         </tr>
         <tr>
             <td style="text-align: center;">클로저</td>
