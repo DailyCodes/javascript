@@ -14,7 +14,7 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 
 **Asynchronous JavaScript And XML**
 
-JavaScript와 XML을 이용한 비동기적 정보 교환 기법입니다. 페이지를 새로 불러 오지 않고도 동적으로 새로운 정보를 업데이트할 수 있습니다. 가령, Twitter 타임라인에서 새로운 트윗을 보기 위해 F5 키를 눌러 새로 고침해야 할 필요가 없습니다.
+[JavaScript](#javascript)와 [XML](#xml)을 이용한 비동기적 정보 교환 기법입니다. 페이지를 새로 불러 오지 않고도 동적으로 새로운 정보를 업데이트할 수 있습니다. 가령, Twitter 타임라인에서 새로운 트윗을 보기 위해 F5 키를 눌러 새로 고침해야 할 필요가 없습니다.
 
 ## API
 
@@ -38,6 +38,12 @@ JavaScript와 XML을 이용한 비동기적 정보 교환 기법입니다. 페�
 
 마크업 언어가 실제 표현되는 서식을 기술하는 스타일시트 언어입니다. 주로 [HTML](#html)과 함께 사용됩니다.
 
+```css
+body {
+    text-align: center;
+}
+```
+
 ## DNS
 
 **Domain Name System**
@@ -58,6 +64,18 @@ Linux의 아버지 [리누스 토르발스](https://en.wikipedia.org/wiki/Linus_
 
 API 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, REST API를 대체할 수 있습니다. 단, 서버에서 GraphQL을 지원해야 합니다. Facebook에서 개발했습니다.
 
+```graphql
+query {
+	user(login: "moontahoe") {
+		id
+		login
+		name
+		location
+		avatarUrl
+	}
+}
+```
+
 ## Hooks
 
 [React](#react)에서 [컴포넌트](#컴포넌트) 트리와 별도로 재사용 가능한 코드 로직을 제공하여, [상태](#상태) 및 효과를 관리하기 위한 방법입니다. 컴포넌트와 상태를 서로 엮는다는 의미로 영단어 'Hook'을 사용합니다. Hook의 이름에는 관습적으로 'use'를 붙입니다(useState 등).
@@ -68,6 +86,18 @@ API 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, 
 
 웹 페이지의 구조와 의미를 정의하는 마크업 언어입니다. 주로 [CSS](#css), [JavaScript](#javascript)와 함께 사용됩니다.
 
+```html
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        Hello, world!
+    </body>
+</html>
+```
+
 ## HTTP
 
 **HyperText Transfer Protocol**
@@ -77,6 +107,10 @@ API 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, 
 ## JavaScript
 
 웹 클라이언트에서 상호 작용을 구현하기 위해 단 10일 만에 개발되었으며, 현재는 다른 분야로의 확장이 진행된 프로그래밍 언어입니다. 동적 타입 선언, 프로토타입 기반 객체, 함수형 프로그래밍 등의 특징이 있습니다.
+
+```javascript
+console.log("Hello, world!");
+```
 
 ## JSON
 
