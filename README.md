@@ -4,6 +4,30 @@
 
 자료조사를 통한 깔끔한 설명과 함께, 웹에서 구동 가능한 샘플 코드까지 만들어 봅시다.
 
+<table>
+    <thead>
+        <tr>
+            <th colspan="4" style="text-align: center;">빠른 링크</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href="#커리큘럼">커리큘럼</a>
+            </td>
+            <td>
+                <a href="#규칙">규칙</a>
+            </td>
+            <td>
+                <a href="#템플릿">템플릿</a>
+            </td>
+            <td>
+                <a href="/javascript/docs/glossary.html">용어집</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 # 커리큘럼
 
 비슷한 주제끼리 묶은 커리큘럼입니다. 실제 활동 순서는 이와 다를 수 있습니다.
@@ -13,7 +37,7 @@
     <thead>
         <tr>
             <th style="width: 10%;">분류</th>
-            <th  style="width: 20%;">주제</th>
+            <th style="width: 20%;">주제</th>
             <th style="width: 70%;">실습</th>
         </tr>
     </thead>
