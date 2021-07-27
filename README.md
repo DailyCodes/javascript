@@ -69,8 +69,8 @@
             <td style="text-align: left;"><a href="/javascript/0726/">여러 수를 한꺼번에 입력</a>받고, <code>n</code>의 배수만 출력하기<br>- 입력은 텍스트 상자에 쉼표(<code>,</code>)를 구분자로 수 나열<br>- 텍스트 박스를 하나 더 생성하여 <code>n</code> 입력<br>- 출력은 콘솔이나 <code>alert()</code> 등 편한 방법으로<br>- 반드시 고차 함수를 사용하고, 고차 함수의 인수로는 화살표 함수를 사용해야 함<br>- 응용: 여러 수를 한꺼번에 입력받고, <code>n</code>제곱하기 (선택 사항 - optional)</td>
         </tr>
         <tr>
-            <td style="text-align: center;">클로저</td>
-            <td style="text-align: left;">함수 공장 만들기<br>- 각각 2의 n승, 3의 n승, 10의 n승을 구하는 <code>powerOf2(n)</code>, <code>powerOf3(n)</code>, <code>powerOf10(n)</code> 함수를 작성하고 실행 결과 콘솔에 출력<br>- 단, 클로저의 원리를 사용해야 함</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0727.html">클로저</a></td>
+            <td style="text-align: left;"><a href="/javascript/0727/">함수 공장 만들기</a><br>- 각각 2의 n승, 3의 n승, 10의 n승을 구하는 <code>powerOf2(n)</code>, <code>powerOf3(n)</code>, <code>powerOf10(n)</code> 함수를 작성하고 실행 결과 콘솔에 출력<br>- 단, 클로저의 원리를 사용해야 함</td>
         </tr>
         <tr>
             <td style="text-align: center;">Promise</td>
