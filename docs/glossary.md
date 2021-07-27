@@ -52,7 +52,7 @@ body {
 
 ## ES6
 
-**ECMAScript 6(ES2015)**
+**ECMAScript 6 (ES2015)**
 
 모던 [JavaScript](#javascript)의 기준이 되는 JavaScript 표준안(ECMAScript)으로, 명확하고 편리한 문법, Promise 비동기 프로그래밍을 제공합니다.
 
@@ -62,7 +62,7 @@ Linux의 아버지 [리누스 토르발스](https://en.wikipedia.org/wiki/Linus_
 
 ## GraphQL
 
-API 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, REST API를 대체할 수 있습니다. 단, 서버에서 GraphQL을 지원해야 합니다. Facebook에서 개발했습니다.
+API 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, [REST API](#rest-api)를 대체할 수 있습니다. 단, 서버에서 GraphQL을 지원해야 합니다. Facebook에서 개발했습니다.
 
 ```graphql
 query {
@@ -118,6 +118,27 @@ console.log("Hello, world!");
 
 키-값 쌍으로 이루어진 객체 데이터를 전달하기 위해 텍스트를 사용하는 개방형 표준 형식입니다. 중괄호`{ ... }`를 사용한 JavaScript의 객체 리터럴에서 유래했으나, 현재는 JavaScript를 제외한 프로그래밍 언어에서도 대부분 지원하고 있습니다.
 
+```json
+{
+    "companies": [
+        {
+           "name": "Apple",
+           "products": [
+               "macOS",
+               "iOS"
+            ]
+        },
+        {
+           "name": "Microsoft",
+           "products": [
+               "MS-DOS",
+               "Windows"
+            ]
+        }
+    ]
+}
+```
+
 ## JSX
 
 **JavaScript + XML**
@@ -138,7 +159,7 @@ console.log("Hello, world!");
 
 **Node Version Manager**
 
-Node.js의 버전 관리 도구입니다. 하나의 컴퓨터에서 다양한 버전의 Node.js를 설치하고 전환할 수 있게 해 줍니다.
+[Node.js](#nodejs)의 버전 관리 도구입니다. 하나의 컴퓨터에서 다양한 버전의 Node.js를 설치하고 전환할 수 있게 해 줍니다.
 
 ## React
 
@@ -148,7 +169,7 @@ Node.js의 버전 관리 도구입니다. 하나의 컴퓨터에서 다양한 �
 
 **REpresentational State Transfer API**
 
-효율적, 안정적이며 확장가능한 분산시스템을 가져올 수 있는 소프트웨어 아키텍처 디자인 제약의 모음입니다. REST API는 특정한 API의 이름이 아닌 추상적인 규칙이며, 이를 만족하는 API를 RESTful하다고 합니다.
+효율적, 안정적이며 확장가능한 분산시스템을 가져올 수 있는 소프트웨어 아키텍처 디자인 제약의 모음입니다. REST API는 특정한 [API](#api)의 이름이 아닌 추상적인 규칙이며, 이를 만족하는 API를 RESTful하다고 합니다.
 
 ## SPA
 
