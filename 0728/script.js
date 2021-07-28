@@ -1,9 +1,14 @@
-form.onclick = function(event) {
-    event.target.style.backgroundColor = 'red';
-  
+box.onclick = function(event) {
+    const bgColor = event.target.style.backgroundColor;
+
+    if (bgColor == 'black')
+        event.target.style.backgroundColor = 'yellow';
+    else if (bgColor == 'yellow')
+        event.target.style.backgroundColor = 'black';
+
     setTimeout(() => {
-      alert();
-      event.target.style.backgroundColor = ''
+      alert(bgColor);
+      event.target.style.backgroundColor = bgColor;
     }, 0);
   };
 
