@@ -14,7 +14,7 @@ DOM의 특정 노드 객체에서 이벤트가 발생했을 때, 노드 트리 �
 
 3개의 요소가 `FORM > DIV > P` 형태로 중첩된 구조를 살펴봅시다. 요소 각각에 핸들러가 할당되어 있습니다.
 
-```javascript
+```html
 <style>
   body * {
     margin: 10px;
@@ -84,8 +84,10 @@ capture 옵션은 두 가지 값을 가질 수 있습니다.
 
 아래 예시에서 `<button>`을 클릭해도 `body.onclick`은 동작하지 않습니다.
 
-```javascript
+```html
 <body onclick="alert(`버블링은 여기까지 도달하지 못합니다.`)">
-  <button onclick="event.stopPropagation()">클릭해 주세요.</button>
+  <button onclick="event.stopPropagation()">
+    클릭해 주세요.
+  </button>
 </body>
 ```
