@@ -30,7 +30,7 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 
 **create-react-app**
 
-터미널에서 [React](#react) 프로젝트를 생성하는 도구입니다. [Webpack](#webpack), [Babel](#babel), ESLint 등의 설정을 자동으로 수행합니다.
+터미널에서 [React](#react) 프로젝트를 생성하는 도구입니다. [Webpack](#webpack), [Babel](#babel), [ESLint](#eslint) 등의 설정을 자동으로 수행합니다.
 
 ## CSS
 
@@ -40,6 +40,7 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 
 ```css
 body {
+    background-color: blue;
     text-align: center;
 }
 ```
@@ -50,11 +51,25 @@ body {
 
 호스트의 도메인 이름(`www.naver.com` 등)을 호스트의 네트워크 주소(IP 주소)로 바꾸거나 그 반대의 변환을 수행합니다. 
 
+## DOM
+
+**Document Object Model**
+
+웹 페이지(Document)를 구조화된 노드(Node) [객체](#객체)의 트리 구조로 표현한 모델입니다. 각 [브라우저](#브라우저)에 구현되어 있으며, [JavaScript](#javascript)에서 [HTML](#html)을 직접 조작할 수 있는 브라우저 [API](#api)를 제공합니다.
+
+## ECMAScript
+
+유럽의 [ECMA International](https://en.wikipedia.org/wiki/Ecma_International)에서 규정한 [JavaScript](#javascript) 표준안입니다. 2015년의 [ES6](#es6) 이후 매년 새로운 기능이 추가되어 발표되고 있습니다. [호환성 테이블](http://kangax.github.io/compat-table/es6/)을 통해 각 [브라우저](#브라우저)의 ECMAScript 최신 기능 지원 현황을 한눈에 볼 수 있습니다.
+
+## ESLint
+
+ESLint는 [JavaScript](#javascript)의 문법 오류를 잡아내고 자동 교정 기능을 제공하는 도구입니다. [CRA](#cra)에 자동으로 포함되어 있으며, 코드 포매팅 기능을 추가하는 등 개발자가 원하는 대로 설정하여 사용할 수 있습니다.
+
 ## ES6
 
 **ECMAScript 6 (ES2015)**
 
-모던 [JavaScript](#javascript)의 기준이 되는 JavaScript 표준안(ECMAScript)으로, 명확하고 편리한 문법, Promise 비동기 프로그래밍을 제공합니다.
+모던 [JavaScript](#javascript)의 기준이 되는 JavaScript 표준안([ECMAScript](#ecmascript))으로, 명확하고 편리한 문법, [클래스](#클래스), [Promise](#promise) 비동기 프로그래밍을 제공합니다.
 
 ## Git
 
@@ -62,7 +77,7 @@ Linux의 아버지 [리누스 토르발스](https://en.wikipedia.org/wiki/Linus_
 
 ## GraphQL
 
-API 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, [REST API](#rest-api)를 대체할 수 있습니다. 단, 서버에서 GraphQL을 지원해야 합니다. Facebook에서 개발했습니다.
+[API](#api) 통신을 선언적으로 정의하는 쿼리 언어(Query Language)으로, [REST API](#rest-api)를 대체할 수 있습니다. 단, 서버에서 GraphQL을 지원해야 합니다. Facebook에서 개발했습니다.
 
 ```graphql
 query {
@@ -104,9 +119,21 @@ query {
 
 웹 상에서 정보를 주고받을 수 있는 프로토콜입니다. [HTML](#html) 문서를 주고받거나 [REST API](#rest-api) 요청/응답 시 사용됩니다.
 
+## Java
+
+1995년 [James Gosling](https://en.wikipedia.org/wiki/James_Gosling)이 개발한 [객체 지향 프로그래밍](#객체-지향-프로그래밍) 언어입니다. [백엔드](#백엔드) 구축 및 Android 프로그래밍에 주로 사용됩니다. [JavaScript](#javascript)와는 이름을 제외하면 관련이 없습니다.
+
+```java
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
 ## JavaScript
 
-웹 클라이언트에서 상호 작용을 구현하기 위해 단 10일 만에 개발되었으며, 현재는 다른 분야로의 확장이 진행된 프로그래밍 언어입니다. 동적 타입 선언, 프로토타입 기반 객체, 함수형 프로그래밍 등의 특징이 있습니다.
+1995년 [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich)가 개발한 스크립트 언어이자 프로그래밍 언어입니다. 웹 클라이언트에서 상호 작용을 구현하기 위해 단 10일 만에 개발되었으며, 현재는 다른 분야로의 확장이 진행된 프로그래밍 언어입니다. 동적 타입 선언, 프로토타입 기반 객체, 함수형 프로그래밍 등의 특징이 있습니다.
 
 ```javascript
 console.log("Hello, world!");
@@ -116,7 +143,7 @@ console.log("Hello, world!");
 
 **JavaScript Object Notation**
 
-키-값 쌍으로 이루어진 객체 데이터를 전달하기 위해 텍스트를 사용하는 개방형 표준 형식입니다. 중괄호`{ ... }`를 사용한 [JavaScript](#javascript)의 객체 리터럴에서 유래했으나, 현재는 JavaScript를 제외한 프로그래밍 언어에서도 대부분 지원하고 있습니다.
+키-값 쌍으로 이루어진 [객체](#객체) 데이터를 전달하기 위해 텍스트를 사용하는 개방형 표준 형식입니다. 중괄호`{ ... }`를 사용한 [JavaScript](#javascript)의 객체 리터럴에서 유래했으나, 현재는 JavaScript를 제외한 프로그래밍 언어에서도 대부분 지원하고 있습니다.
 
 ```json
 {
@@ -145,6 +172,14 @@ console.log("Hello, world!");
 
 [JavaScript](#javascript) 코드 안에서 바로 태그 기반의 구문을 써서 [React](#react) 엘리먼트를 정의할 수 있게 해주는 JavaScript 확장입니다. [HTML](#html)과 닮은 문법을 사용하지만, 실제로는 [Babel](#babel)에 의해 JavaScript로 변환됩니다.
 
+```jsx
+import React from "react";
+
+export default function Main({ name }) {
+    return <h1>Hello World, {name}!</h1>;
+}
+```
+
 ## Node.js
 
 [JavaScript](#javascript)로 브라우저 밖에서 서버를 구축하는 등의 코드를 실행할 수 있게 해주는 런타임 환경입니다. 오픈 소스 라이브러리를 통한 뛰어난 확장성을 가지고 있습니다.
@@ -160,6 +195,10 @@ console.log("Hello, world!");
 **Node Version Manager**
 
 [Node.js](#nodejs)의 버전 관리 도구입니다. 하나의 컴퓨터에서 다양한 버전의 Node.js를 설치하고 전환할 수 있게 해 줍니다.
+
+## Promise
+
+[ES6](#es6)부터 추가된 [JavaScript](#javascript) 객체 중 하나로, [비동기 함수](#비동기-프로그래밍)에 의해 반환될 미래의 결괏값을 처리할 수 있는 방법을 제공합니다.
 
 ## React
 
@@ -197,7 +236,7 @@ console.log("Hello, world!");
 
 ## Virtual DOM
 
-[React](#react)에서 사용하는 가상화된 DOM(Document Object Model)입니다. React는 컴포넌트 트리에 변동 사항이 있을 때 먼저 Virtual DOM을 변경하고, 실제 DOM과 Virtual DOM을 비교하여 실제 DOM에는 가능한 한 최소한의 변경만 수행합니다.
+[React](#react)에서 사용하는 가상화된 [DOM](#dom)입니다. React는 컴포넌트 트리에 변동 사항이 있을 때 먼저 Virtual DOM을 변경하고, 실제 DOM과 Virtual DOM을 비교하여 실제 DOM에는 가능한 한 최소한의 변경만 수행합니다.
 
 ## Webpack
 
@@ -219,11 +258,29 @@ console.log("Hello, world!");
 
 국문 표제어입니다.
 
+## 객체
+
+**Object**
+
+객체는 특정한 개념과 관련된 속성(property) 및 [메서드](#메서드)(method)의 집합입니다. 내장 객체와 사용자 지정 객체로 분류할 수 있으며, 사용자 지정 객체는 객체 리터럴 `{ ... }`로 선언하거나 [생성자 함수](#생성자-함수)를 선언하는 방법으로 만들 수 있습니다.
+
+## 객체 지향 프로그래밍
+
+**Object Oriented Programming (OOP)**
+
+프로그램 내부의 모든 단위를 [객체](#객체)로 나누고, 이들의 상호 작용을 통해 코드를 작성하는 방법론입니다.
+
 ## 고차 함수
 
 **Higher Order Function**
 
 다른 함수를 인자로 받는 함수입니다. 배열(Array)의 메서드인 `map`, `filter`, `reduce`, `forEach` 등이 이에 해당됩니다.
+
+## 라이브러리
+
+**Library**
+
+프로그래밍에서 공통적으로 사용될 수 있는 기능들을 모듈화한 것입니다. [JavaScript](#javascript)의 대표적인 라이브러리로는 jQuery, [React](#react) 등이 있으며, [NPM](#npm)을 통해 필요한 라이브러리를 다운로드할 수 있습니다.
 
 ## 렌더링
 
@@ -235,19 +292,31 @@ console.log("Hello, world!");
 
 **Reducer Function**
 
-현재 값(상태)을 받아서 새 값(상태)을 반환하는 함수입니다. 주로 두 개의 인자(기존 값, 새로운 값)를 받아 하나의 값으로 병합하여 반환하고, 반한된 값이 기존 값이 되는 과정을 반복하여 모든 값들을 합쳐서 하나로 만듭니다. 배열의 `reduce` 메서드, [React](#react)의 useReducer [Hook](#hooks) 등이 이에 해당합니다.
+현재 값(상태)을 받아서 새 값(상태)을 반환하는 함수입니다. 주로 두 개의 인자(기존 값, 새로운 값)를 받아 하나의 값으로 병합하여 반환하고, 반한된 값이 기존 값이 되는 과정을 반복하여 모든 값들을 합쳐서 하나로 만듭니다. 배열의 `reduce()` 메서드, [React](#react)의 useReducer [Hook](#hooks) 등이 이에 해당합니다.
+
+## 메서드
+
+**method**
+
+객체에 속한 함수이며, `this` 키워드를 사용해 객체 내부 속성을 조작할 수 있습니다. 단, [REST API](#rest-api)의 메서드는 [API](#api)를 통해 실행할 동작을 의미합니다(GET, POST, PUT, DELETE).
+
+## 문법적 설탕
+
+**Syntactic Sugar**
+
+기존에 복잡한 코드를 통해 작성해야 했던 구문을 간략하게 만들어 주는 문법입니다. 문법적 설탕이라고 불리는 기능들은 새로운 기능이 아니며, 기존 기능을 더 편리하게 사용할 수 있는 또 다른 문법입니다.
 
 ## 백엔드
 
 **Backend**
 
-프론트엔드와 반대로, 클라이언트와 소통하는 위치에 있는 서버 단을 의미합니다. 일반적으로 호스팅 서버 및 API 서버를 포함하며, 때로는 데이터베이스까지 포함하는 개념입니다. 유명한 백엔드 라이브러리/프레임워크로는 Spring(Java), Django(Python), Express([Node.js](#nodejs))가 있습니다.
+프론트엔드와 반대로, 클라이언트와 소통하는 위치에 있는 서버 단을 의미합니다. 일반적으로 호스팅 서버 및 API 서버를 포함하며, 때로는 데이터베이스까지 포함하는 개념입니다. 유명한 백엔드 라이브러리/프레임워크로는 Spring([Java](#java)), Django(Python), Express([Node.js](#nodejs))가 있습니다.
 
 ## 브라우저
 
 **Browser**
 
-[HTML](#html), [CSS](#css), [JavaScript](#javascript) 코드를 입력받아 사용자와 상호작용할 수 있는 화면을 보여주는 프로그램입니다. Chrome, Firefox, Safari, Edge 등이 있습니다. 웹 브라우저마다 지원하는 JavaScript 코드 또는 브라우저 API가 상이할 수 있으므로, [프론트엔드](#프론트엔드) 개발자는 이 점에 유의해야 합니다.
+[HTML](#html), [CSS](#css), [JavaScript](#javascript) 코드를 입력받아 사용자와 상호작용할 수 있는 화면을 [렌더링](#렌더링)하는 프로그램입니다. Chrome, Firefox, Safari, Edge 등이 있습니다. 웹 브라우저마다 지원하는 JavaScript 코드 또는 브라우저 API가 상이할 수 있으므로([Can I use](https://caniuse.com) 사이트에서 확인), [프론트엔드](#프론트엔드) 개발자는 이 점에 유의해야 합니다.
 
 ## 비동기 프로그래밍
 
@@ -266,6 +335,12 @@ console.log("Hello, world!");
 **State**
 
 애플리케이션이 가지고 있으면서 때로는 변경해야 하는 값입니다. 때로는 하나의 상태를 여러 컴포넌트가 공유해야 할 때도 있으며, 이 경우 상태를 [프롭](#프롭)으로 내려보냅니다. [React](#react)에서의 상태 변경과 [렌더링](#렌더링)은 연동되어 동작합니다.
+
+## 생성자 함수
+
+**Constructor Function**
+
+[객체](#객체)의 [인스턴스](#인스턴스)를 생성하는 함수입니다. 객체 생성에 필요한 값을 인자로 받으며, 별도의 `return` 값은 없어도 무방합니다.
 
 ## 순수 함수
 
@@ -287,11 +362,41 @@ console.log("Hello, world!");
 
 시스템에서 일어나는 사건(action) 혹은 발생(occurrence)입니다. 시스템이 이벤트를 알려주는 이유는 각각의 이벤트가 발생할 시 호출될 코드를 작성할 수 있도록 하기 위해서입니다. 이벤트 발생 시 이는 태스크 큐에 순차적으로 들어가며, 동기적으로 작성된 코드가 모두 실행을 마친 이후 이벤트 루프에 의해 FIFO(First-In-First-Out) 순서로 처리됩니다.
 
+## 이벤트 버블링
+
+**Event Bubbling**
+
+[DOM](#dom)의 특정 노드 객체에서 [이벤트](#이벤트)가 발생했을 때, 노드 트리 구조의 상위 객체로 끝까지 이벤트가 전달되는 현상입니다(상향식). 이벤트 버블링은 기본적으로 발생하며, `event.stopPropagation()` [메서드](#메서드)를 사용하여 이벤트 버블링을 방지할 수 있습니다.
+
+## 이벤트 캡처링
+
+**Event Capturing**
+
+[DOM](#dom)의 특정 노드 객체에서 [이벤트](#이벤트)가 발생했을 때, 노드 트리 구조의 하위 객체로 끝까지 이벤트가 전달되는 현상입니다(하향식).
+
 ## 익명 함수
 
 **Anonymous Function**
 
 함수 선언식으로 만들어지지 않은 함수로, 특정한 변수에 대입되지 않는 이상 이름이 없습니다. 특정한 함수를 [콜백 함수](#콜백-함수)로 넘길 때 많이 사용합니다.
+
+## 인스턴스
+
+**Instance**
+
+프로그래밍 일반에서는 추상적인 구조를 바탕으로 구현된 구체적인 실체를 의미합니다. 가령, 컴퓨터 프로그램의 인스턴스는 프로세스이며, 하나의 프로그램에 대한 여러 개의 프로세스가 동시에 실행될 수 있습니다.
+
+[JavaScript](#javascript)에서는 [객체](#객체)의 [생성자 함수](#생성자-함수)에 `new` 키워드를 붙여서 인스턴스를 생성합니다. 생성자 함수가 객체를 만들어내는 틀이라면, 인스턴스는 그 틀에 의해 만들어진 각각의 결과물입니다.
+
+```javascript
+const person1 = new Person("Jeongjoo");
+```
+
+## 자료형
+
+**(Data) Type**
+
+프로그래밍 언어에서 여러 종류의 데이터를 식별하는 분류입니다. [JavaScript](#javascript)에서는 기본 자료형으로 `Number`(수), `String`(문자열), `Boolean`(논리값), `Null`(의도적으로 존재하지 않는 값), `Undefined`(할당되지 않은 값), `Symbol`이 있으며, 별도로 `Object`([객체](#객체))가 존재합니다. 함수(Function), 배열(Array)는 객체에 해당합니다.
 
 ## 컴포넌트
 
@@ -300,6 +405,22 @@ console.log("Hello, world!");
 React에서 [사용자 인터페이스](#사용자-인터페이스)를 만드는 단위입니다. 클래스형과 함수형 두 가지 방법으로 선언할 수 있습니다. 컴포넌트는 계층적 구조를 가지며, 이를 컴포넌트 트리라고 합니다.
 
 **함수형** 컴포넌트의 경우, [프롭](#프롭)을 입력받아 [JSX](#jsx) 형식의 사용자 인터페이스를 반환합니다.
+
+```jsx
+import React from "react";
+
+export default function Main({ name }) {
+    return <h1>Hello World, {name}!</h1>;
+}
+```
+
+## 클래스
+
+**Class**
+
+[Java](#java) 등 [객체 지향 프로그래밍](#객체-지향-프로그래밍) 언어에서는 특정 [객체](#객체)를 선언하기 위해 속성 및 [메서드](#메서드)를 정의하는 일종의 틀입니다.
+
+단, [JavaScript](#javascript)의 [ES6](#es6)에서 추가된 `class` 문법은 기본적으로 [생성자 함수](#생성자-함수)를 정의하는 [문법적 설탕](#문법적-설탕)입니다.
 
 ## 클로저
 
@@ -317,7 +438,7 @@ React에서 [사용자 인터페이스](#사용자-인터페이스)를 만드는
 
 **Frontend**
 
-클라이언트 단, 즉 [브라우저](#브라우저)에 의해 다루어지는 영역(HTML, CSS, JavaScript)을 의미합니다. 유명한 프론트엔드 라이브러리/프레임워크로는 [React](#react), Vue.js, Angular, jQuery가 있습니다.
+클라이언트 단, 즉 [브라우저](#브라우저)에 의해 다루어지는 영역([HTML](#html), [CSS](#css), [JavaScript](#javascript))을 의미합니다. 유명한 프론트엔드 라이브러리/프레임워크로는 [React](#react), Vue.js, Angular, jQuery가 있습니다.
 
 ## 프롭
 
