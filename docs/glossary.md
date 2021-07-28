@@ -69,7 +69,7 @@ ESLint는 [JavaScript](#javascript)의 문법 오류를 잡아내고 자동 교�
 
 **ECMAScript 6 (ES2015)**
 
-모던 [JavaScript](#javascript)의 기준이 되는 JavaScript 표준안([ECMAScript](#ecmascript))으로, 명확하고 편리한 문법, [클래스](#클래스), [Promise](#promise) 비동기 프로그래밍을 제공합니다.
+모던 [JavaScript](#javascript)의 기준이 되는 JavaScript 표준안([ECMAScript](#ecmascript))으로, 명확하고 편리한 문법, [클래스](#클래스), [Promise](#promise) [비동기 프로그래밍](#비동기-프로그래밍)을 제공합니다.
 
 ## Git
 
@@ -286,7 +286,9 @@ export default function Main({ name }) {
 
 **Rendering**
 
-[React](#react) 엘리먼트가 눈으로 볼 수 있도록 그려지는 것입니다. 렌더링 과정에는 [Virtual DOM](#virtual-dom)을 사용한 DOM 업데이트가 포함됩니다. 렌더링은 [상태](#상태) 및 [프롭](#프롭) 변경, 부모 컴포넌트가 렌더링될 때 발생하며, 강제 재렌더링 기능도 있습니다.
+일반적인 [프론트엔드](#프론트엔드)에서는 [브라우저](#브라우저)가 [HTML](#html), [CSS](#css), [JavaScript](#javascript)를 읽어들여서 사용자가 볼 수 있는 화면을 그리는 것입니다.
+
+[React](#react)에서는 React 엘리먼트가 눈으로 볼 수 있도록 그려지는 것입니다. 렌더링 과정에는 [Virtual DOM](#virtual-dom)을 사용한 DOM 업데이트가 포함됩니다. 렌더링은 [상태](#상태) 및 [프롭](#프롭) 변경, 부모 컴포넌트가 렌더링될 때 발생하며, 강제 재렌더링 기능도 있습니다.
 
 ## 리듀서 함수
 
@@ -310,7 +312,7 @@ export default function Main({ name }) {
 
 **Backend**
 
-프론트엔드와 반대로, 클라이언트와 소통하는 위치에 있는 서버 단을 의미합니다. 일반적으로 호스팅 서버 및 API 서버를 포함하며, 때로는 데이터베이스까지 포함하는 개념입니다. 유명한 백엔드 라이브러리/프레임워크로는 Spring([Java](#java)), Django(Python), Express([Node.js](#nodejs))가 있습니다.
+[프론트엔드](#프론트엔드)와 반대로, 클라이언트와 소통하는 위치에 있는 서버 단을 의미합니다. 일반적으로 호스팅 서버 및 [API](#api) 서버를 포함하며, 때로는 데이터베이스까지 포함하는 개념입니다. 유명한 백엔드 라이브러리/프레임워크로는 Spring([Java](#java)), Django(Python), Express([Node.js](#nodejs))가 있습니다.
 
 ## 브라우저
 
@@ -334,7 +336,7 @@ export default function Main({ name }) {
 
 **State**
 
-애플리케이션이 가지고 있으면서 때로는 변경해야 하는 값입니다. 때로는 하나의 상태를 여러 컴포넌트가 공유해야 할 때도 있으며, 이 경우 상태를 [프롭](#프롭)으로 내려보냅니다. [React](#react)에서의 상태 변경과 [렌더링](#렌더링)은 연동되어 동작합니다.
+애플리케이션이 가지고 있으면서 때로는 변경해야 하는 값입니다. 하나의 상태를 여러 컴포넌트가 공유해야 할 때도 있으며, 이 경우 상태를 [프롭](#프롭)으로 내려보냅니다. [React](#react)에서의 상태 변경과 [렌더링](#렌더링)은 연동되어 동작합니다.
 
 ## 생성자 함수
 
