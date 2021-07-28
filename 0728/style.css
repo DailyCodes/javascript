@@ -1,3 +1,18 @@
-/*
-여기에 CSS 코드를 작성합니다.
-*/
+form {
+    background-color: black;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+div {
+    background-color: yellow;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  
