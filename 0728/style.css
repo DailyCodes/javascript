@@ -1,0 +1,17 @@
+#black { 
+    background-color: black; 
+    position: relative; 
+    width: 150px; 
+    height: 150px; 
+    text-align: center; 
+    cursor: pointer; 
+}
+
+#yellow {
+    background-color: yellow; 
+    position: absolute; 
+    top: 25px; 
+    left: 25px; 
+    width: 100px; 
+    height: 100px;
+}
