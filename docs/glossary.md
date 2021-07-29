@@ -436,6 +436,18 @@ export default function Main({ name }) {
 
 다른 함수에 인자로 전달되는 함수입니다. [고차 함수](#고차-함수) 및 [비동기 프로그래밍](#비동기-프로그래밍)에서 주로 쓰입니다.
 
+```javascript
+setTimeout(() => {
+    console.log("1초가 지났습니다.")
+}, 1000)
+```
+
+## 프로토타입
+
+**Prototype**
+
+객체와 객체의 연결을 통한 단방향적인 공유 관계로, [JavaScript](#javascript)에서 [객체](#객체) 간 속성과 [메서드](#메서드)를 상속하기 위해 쓰이는 방식입니다. 모든 객체는 자신의 프로토타입 객체를 가지고 있으며(단, 최상위 객체 `Object`의 프로토타입은 `null`), 이를 통해 상위 객체의 속성과 메서드를 마치 자신의 것처럼 사용할 수 있습니다.
+
 ## 프론트엔드
 
 **Frontend**
@@ -459,3 +471,11 @@ export default function Main({ name }) {
 **Arrow Function**
 
 `() => {}` 형식의 간단한 문법을 제공하는 [익명 함수](#익명-함수)입니다. [ES6](#es6)부터 지원하는 기능입니다.
+
+```javascript
+const random = () => Math.round(Math.random())
+const double = x => x * 2
+const multiply = (x, y) => {
+    return x * y
+}
+```
