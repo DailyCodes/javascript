@@ -143,7 +143,7 @@ console.log("Hello, world!");
 
 **JavaScript Object Notation**
 
-키-값 쌍으로 이루어진 [객체](#객체) 데이터를 전달하기 위해 텍스트를 사용하는 개방형 표준 형식입니다. 중괄호`{ ... }`를 사용한 [JavaScript](#javascript)의 객체 리터럴에서 유래했으나, 현재는 JavaScript를 제외한 프로그래밍 언어에서도 대부분 지원하고 있습니다.
+키-값 쌍으로 이루어진 [객체](#객체) 데이터를 전달하기 위해 텍스트를 사용하는 개방형 표준 형식입니다. 중괄호`{ ... }`를 사용한 [JavaScript](#javascript)의 객체 [리터럴](#리터럴)에서 유래했으나, 현재는 JavaScript를 제외한 프로그래밍 언어에서도 대부분 지원하고 있습니다.
 
 ```json
 {
@@ -262,7 +262,7 @@ export default function Main({ name }) {
 
 **Object**
 
-객체는 특정한 개념과 관련된 속성(property) 및 [메서드](#메서드)(method)의 집합입니다. 내장 객체와 사용자 지정 객체로 분류할 수 있으며, 사용자 지정 객체는 객체 리터럴 `{ ... }`로 선언하거나 [생성자 함수](#생성자-함수)를 선언하는 방법으로 만들 수 있습니다.
+객체는 특정한 개념과 관련된 속성(property) 및 [메서드](#메서드)(method)의 집합입니다. 내장 객체와 사용자 지정 객체로 분류할 수 있으며, 사용자 지정 객체는 객체 [리터럴](#리터럴)로 선언하거나 [생성자 함수](#생성자-함수)를 선언하는 방법으로 만들 수 있습니다.
 
 ## 객체 지향 프로그래밍
 
@@ -275,6 +275,20 @@ export default function Main({ name }) {
 **Higher Order Function**
 
 다른 함수를 인자로 받는 함수입니다. 배열(Array)의 메서드인 `map`, `filter`, `reduce`, `forEach` 등이 이에 해당됩니다.
+
+## 단락 평가
+
+**Short-circuit Evaluation**
+
+조건 연산자 사용 시, 다른 우선 순위가 없다면 왼쪽 조건을 평가하고 필요한 경우에만 오른쪽 조건을 평가하는 것입니다. 가령, OR (`||`) 연산자를 사용할 때 왼쪽 조건이 `true`라면 오른쪽 조건과 상관없이 전체가 `true`가 되므로 오른쪽 조건을 평가하지 않습니다. AND (`&&`) 연산자는 반대로 작동합니다.
+
+단락 평가를 사용하면, `if`나 삼항 연산자를 사용하지 않고도 간단한 조건문을 구현할 수 있습니다.
+
+```javascript
+const val = document.getElementById("name").value
+val && console.log(`당신의 이름은 ${val}입니다.`) // val이 truthy한 경우에만 콘솔 출력
+val || console.log(`이름을 입력하지 않았어요.`) // val이 falsy한 경우에만 콘솔 출력
+```
 
 ## 라이브러리
 
@@ -295,6 +309,31 @@ export default function Main({ name }) {
 **Reducer Function**
 
 현재 값(상태)을 받아서 새 값(상태)을 반환하는 함수입니다. 주로 두 개의 인자(기존 값, 새로운 값)를 받아 하나의 값으로 병합하여 반환하고, 반한된 값이 기존 값이 되는 과정을 반복하여 모든 값들을 합쳐서 하나로 만듭니다. 배열의 `reduce()` 메서드, [React](#react)의 useReducer [Hook](#hooks) 등이 이에 해당합니다.
+
+## 리터럴
+
+**Literal**
+
+코드 상에서 데이터를 표현하는 방식입니다.
+
+```javascript
+const isVisible = true; // 논리 리터럴
+const num1 = 1996; // 숫자 리터럴
+const str1 = 'Jeongjoo'; // 문자 리터럴 1
+const str2 = "Jeongjoo"; // 문자 리터럴 2
+const str3 = `Hello, ${str1}!`; // 문자 리터럴 (템플릿 리터럴)
+const reg1 = /\.js$/g; // 정규 표현식 리터럴
+const arr1 = ["England", "France", "Germany", "Italy", "Spain"]; // 배열 리터럴
+const obj1 = {
+    name: "James",
+    age: 17,
+    hobbies: ["Soccer", "Travel", "Coding"]
+}; // 객체 리터럴
+const fn1 = function () {
+    console.log("함수입니다.")
+} // 함수 리터럴
+const fn2 = () => console.log("나도 함수다.") // 함수 리터럴 (화살표 함수)
+```
 
 ## 메서드
 
