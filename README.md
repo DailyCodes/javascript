@@ -86,8 +86,8 @@
             <td style="text-align: left;"><a href="/javascript/0723/">버튼을 눌러서 특정 콘텐츠를 보이거나 숨기기</a><br>- <code>document.getElementById()</code> 및 <code>버튼명.addEventListener()</code> 활용<br>- [이벤트 삭제] 버튼: 위에 만들었던 이벤트 삭제하기 (선택 사항 - optional)</td>
         </tr>
         <tr>
-            <td style="text-align: center;">버블링, 캡처링</td>
-            <td style="text-align: left;">중첩된 상자 만들기<br>- <strong>div</strong> 태그로 검은색 상자를 만들고(<code>background: black;</code>), 다시 그 안에 <strong>div</strong> 태그로 노란색 상자를 만듦(<code>background: yellow;</code>)<br>- 검은색 상자가 있는 영역을 클릭하면 'black'이라는 alert 메세지만 출력하고 상자 색깔이 노란색으로 바뀜, 노란색 상자가 있는 영역을 클릭하면 'yellow'이라는 alert 메세지만 출력하고 상자 색깔이 검은색으로 바뀜</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0728.html">버블링, 캡처링</a></td>
+            <td style="text-align: left;"><a href="/javascript/0728/">중첩된 상자 만들기</a><br>- <strong>div</strong> 태그로 검은색 상자를 만들고(<code>background: black;</code>), 다시 그 안에 <strong>div</strong> 태그로 노란색 상자를 만듦(<code>background: yellow;</code>)<br>- 검은색 상자가 있는 영역을 클릭하면 'black'이라는 alert 메세지만 출력하고 상자 색깔이 노란색으로 바뀜, 노란색 상자가 있는 영역을 클릭하면 'yellow'이라는 alert 메세지만 출력하고 상자 색깔이 검은색으로 바뀜</td>
         </tr>
         <tr>
             <td style="text-align: center;">디바운싱, 쓰로틀링</td>
