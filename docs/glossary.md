@@ -331,7 +331,7 @@ const obj1 = {
 }; // 객체 리터럴
 const fn1 = function () {
     console.log("함수입니다.")
-} // 함수 리터럴
+}; // 함수 리터럴
 const fn2 = () => console.log("나도 함수다.") // 함수 리터럴 (화살표 함수)
 ```
 
