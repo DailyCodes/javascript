@@ -143,7 +143,7 @@
         </tr>
         <tr>
             <td style="text-align: center;">기타</td>
-            <td style="text-align: left;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
+            <td style="text-align: center;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0729/">사람별 운세 추가하기</a><br>- 스프레드 연산자 이용</td>
         </tr>
     </tbody>
