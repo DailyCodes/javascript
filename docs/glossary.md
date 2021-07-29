@@ -9,7 +9,7 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 <table>
     <thead>
         <tr>
-            <th colspan="8" style="text-align: center;">바로가기</th>
+            <th colspan="6" style="text-align: center;">바로가기</th>
         </tr>
     </thead>
     <tbody>
@@ -32,14 +32,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#dns">DNS</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#dom">DOM</a>
             </td>
             <td>
                 <a href="#ecmascript">ECMAScript</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#eslint">ESLint</a>
             </td>
@@ -52,6 +52,8 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#graphql">GraphQL</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#hooks">Hooks</a>
             </td>
@@ -64,14 +66,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#java">Java</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#javascript">JavaScript</a>
             </td>
             <td>
                 <a href="#json">JSON</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#jsx">JSX</a>
             </td>
@@ -110,14 +112,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#virtual-dom">Virtual DOM</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#webpack">Webpack</a>
             </td>
             <td>
                 <a href="#www">WWW</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#xml">XML</a>
             </td>
@@ -130,6 +132,8 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#고차-함수">고차 함수</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#단락-평가">단락 평가</a>
             </td>
@@ -142,14 +146,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#리듀서-함수">리듀서 함수</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#리터럴">리터럴</a>
             </td>
             <td>
                 <a href="#메서드">메서드</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#문법적-설탕">문법적 설탕</a>
             </td>
@@ -188,14 +192,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#이벤트-캡처링">이벤트 캡처링</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#익명-함수">익명 함수</a>
             </td>
             <td>
                 <a href="#인스턴스">인스턴스</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#자료형">자료형</a>
             </td>
@@ -208,6 +212,8 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#클로저">클로저</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#콜백-함수">콜백 함수</a>
             </td>
@@ -220,12 +226,10 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#프롭">프롭</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
-            <td colspan="4">
+            <td>
                 <a href="#함수형-프로그래밍">함수형 프로그래밍</a>
             </td>
-            <td colspan="4">
+            <td>
                 <a href="#화살표-함수">화살표 함수</a>
             </td>
         </tr>
