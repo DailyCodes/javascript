@@ -3500,31 +3500,7 @@ const profileArr = [
         mail: 'gimseongsu@daum.net',
         birthday: '1936, 10, 19'
     }
-]
-
-const buttons = document.querySelectorAll("button")
-const resultDiv = document.getElementById("result")
-// 여러 글자를 넣을 때는 괄호 ()로 묶어야 함
-const patternsByFields = {
-    job: /.+(기사)/,
-    mail: /[a-zA-Z0-9._+-]+[@](naver.com)/,
-    birthday: /[0-9]{4}[,]\s[8]/
-}
-
-// 대소문자를 구분해야 함 (field !== Field)
-// field 이름과 button의 id, patternsByField의 key 값을 모두 job, mail, birthday로 통일해야 함
-const reg = (field) => {
-    return profileArr
-        .filter((obj) => obj[field].match(patternsByFields[field]))
-        .map((obj => obj.name))
-}
-
-buttons.forEach((button)=>{
-    button.addEventListener('click', (e)=>resultDiv.innerText = reg(e.target.id))
-})
-
-const txt = document.querySelector('p');
-const btn = document.querySelector('button');
+];
 const fortuneArr = [
     '안 된다고 포기하는 순간에 될 거예요.',
     '주변 사람들을 위해 음식을 해보세요.',
@@ -3597,15 +3573,23 @@ const fortuneArr = [
     '내 짜증을 남에게 전가하지 마세요.'
 ];
 
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min; //최댓값은 제외, 최솟값은 포함
-  }
+// 배열의 요소를 무작위로 뽑아서 가져오기
+// - Math.random() 함수 이용하기
+// - Math.random()은 0 이상 1 미만의 무작위 소수를 출력
+// - Math.random() * n은 0 이상 n 미만의 무작위 소수를 출력
+// - Math.floor(Math.random * n)은 버림 연산을 하므로 0부터 n-1까지의 무작위 정수를 출력
+// - 즉, 이를 사용하면 배열의 인덱스 0...{배열의 길이 - 1} 범위 내에서 무작위 수 추출
+const getRandomElement = (arr) => arr[Math.floor(Math.random() * arr.length)]
 
-function tellFortune() {
-    const index = getRandomInt(0, fortuneArr.length);
-    txt.textContent = fortuneArr[index];
-}
+// 랜덤으로 운 받기
+// - 배열의 map 함수 이용하기
+// - profileArr에 들어있는 각 객체의 항목을 그대로 사용하고, 스프레드 연산자를 통해 운세만 추가
+const newArr = profileArr.map((obj) => ({...obj, fortune: getRandomElement(fortuneArr)}))
+console.log(newArr);
 
-btn.addEventListener('click', tellFortune);
+// TODO: 띠별로 다른 운세 받기 (태어난 년도를 12로 나눈 나머지 0...11에 따라 fortuneArr의 0...11번째 항목을 운세로 설정)
+// 아래 코드를 주석 해제하여 이용하세요.
+/*
+const nuevoArr = {YOUR_OWN_CODE}
+console.log(nuevoArr)
+*/
