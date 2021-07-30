@@ -1401,23 +1401,32 @@ const arr = [
     }
   ]
 
-const newArrShallow = Object.assign({}, arr); //얕은 복사
-
-arr[0].brand = '파이썬 알고리즘 스터디'
+const newArrShallow = arr.map((obj) => Object.assign({}, obj)); //얕은 복사
 
 function deepCopy(o) {
-  const result = {};
-  if(typeof o === "object" && o !==null)
-    for (i in o) result[i] = deepCopy(o[i]);
-  else result = o;
-  return result;
+    let result = {}; // 여기서는 다른 값에 대입이 가능하므로 상수가 아닌 변수로 선언
+    if (typeof o === "object" && o !== null) {
+      for (i in o) {
+        result[i] = deepCopy(o[i]);
+      }
+    }
+    else {
+        result = o;
+    }
+    return result;
 }
 
-const newArrDeep = deepCopy(arr); //깊은 복사
+const newArrDeep = arr.map((obj) => deepCopy(obj)); //깊은 복사
 
+arr[0].brand = '파이썬 알고리즘 스터디'
 arr[0].profile.job = '대학생'
 
 const buttons = document.querySelectorAll("button")
 const resultDiv = document.getElementById("result")
 
-buttons.forEach((button) => button.addEventListener('click', (e) => resultDiv.innerText = e.target.id === 'shallow' ? newArrShallow[0] : newArrDeep[0]))
+buttons.forEach((button) => button.addEventListener(
+    'click',
+    (e) => resultDiv.innerText = e.target.id === 'shallow'
+        ? `원본(수정됨): ${JSON.stringify(arr[0])}\n얕은 복사: ${JSON.stringify(newArrShallow[0])}`
+        : `원본(수정됨): ${JSON.stringify(arr[0])}\n깊은 복사: ${JSON.stringify(newArrDeep[0])}`
+))

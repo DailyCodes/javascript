@@ -48,8 +48,8 @@
             <td style="text-align: left;"><a href="/javascript/0724/">사칙연산을 지원하는 계산기 만들기</a><br>- 필요한 속성 및 사칙연산 메서드를 가지는 객체를 생성하고, <code>new</code> 키워드로 생성할 수 있도록 해야 함<br>- 단, 나눗셈은 소수 둘째 자리까지만 표시 (반올림)<br>- 부호 바꾸기 (양수→음수, 음수→양수)<br>- 숫자 (0~9) 및 기호(+, -, *, /, =)는 버튼으로 만들기</td>
         </tr>
         <tr>
-            <td style="text-align: center;">얕은 복사, 깊은 복사</td>
-            <td style="text-align: left;">객체 속에 객체가 있는 중첩 구조를 만들고, 이를 각각 얕은 복사와 깊은 복사한 다음 안쪽 객체의 값을 변경하고 콘솔에 출력하기<br>- 얕은 복사에서는 원본과 복사본의 값이 동일함 (같은 객체이므로)<br>- 깊은 복사에서는 원본과 복사본의 값이 달라짐 (다른 객체이므로)</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0730.html">얕은 복사, 깊은 복사</a></td>
+            <td style="text-align: left;"><a href="/javascript/0730/">객체 속에 객체가 있는 중첩 구조를 만들고, 이를 각각 얕은 복사와 깊은 복사한 다음 안쪽 객체의 값을 변경하고 콘솔에 출력하기</a><br>- 얕은 복사에서는 원본과 복사본의 값이 동일함 (같은 객체이므로)<br>- 깊은 복사에서는 원본과 복사본의 값이 달라짐 (다른 객체이므로)</td>
         </tr>
         <tr>
            <td style="text-align: center;"><a href="/javascript/docs/0720.html">랜덤값 추출</a><br>(Math 객체)</td>
