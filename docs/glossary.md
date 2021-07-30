@@ -135,6 +135,9 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
         </tr>
         <tr style="text-align: center;">
             <td>
+                <a href="#깊은-복사">깊은 복사</a>
+            </td>
+            <td>
                 <a href="#단락-평가">단락 평가</a>
             </td>
             <td>
@@ -149,11 +152,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#리터럴">리터럴</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#메서드">메서드</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#문법적-설탕">문법적 설탕</a>
             </td>
@@ -169,11 +172,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#사용자-인터페이스">사용자 인터페이스</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#상태">상태</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#생성자-함수">생성자 함수</a>
             </td>
@@ -184,6 +187,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
                 <a href="#선언형-프로그래밍">선언형 프로그래밍</a>
             </td>
             <td>
+                <a href="#얕은-복사">얕은 복사</a>
+            </td>
+            <td>
+                <a href="#옵셔널-체이닝">옵셔널 체이닝</a>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>
                 <a href="#이벤트">이벤트</a>
             </td>
             <td>
@@ -192,8 +203,6 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#이벤트-캡처링">이벤트 캡처링</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#익명-함수">익명 함수</a>
             </td>
@@ -202,6 +211,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             </td>
             <td>
                 <a href="#자료형">자료형</a>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>
+                <a href="#재귀-함수">재귀 함수</a>
             </td>
             <td>
                 <a href="#컴포넌트">컴포넌트</a>
@@ -212,10 +226,16 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#클로저">클로저</a>
             </td>
+            <td>
+                <a href="#콜백-함수">콜백 함수</a>
+            </td>
+            <td>
+                <a href="#콜-스택">콜 스택</a>
+            </td>
         </tr>
         <tr style="text-align: center;">
             <td>
-                <a href="#콜백-함수">콜백 함수</a>
+                <a href="#태스크-큐">태스크 큐</a>
             </td>
             <td>
                 <a href="#프로토타입">프로토타입</a>
@@ -289,7 +309,7 @@ body {
 
 ## ECMAScript
 
-유럽의 [ECMA International](https://en.wikipedia.org/wiki/Ecma_International)에서 규정한 [JavaScript](#javascript) 표준안입니다. 2015년의 [ES6](#es6) 이후 매년 새로운 기능이 추가되어 발표되고 있습니다. [호환성 테이블](http://kangax.github.io/compat-table/es6/)을 통해 각 [브라우저](#브라우저)의 ECMAScript 최신 기능 지원 현황을 한눈에 볼 수 있습니다.
+유럽의 [ECMA International](https://en.wikipedia.org/wiki/Ecma_International)에서 규정한 [JavaScript](#javascript) 표준안입니다. 2015년의 [ES6](#es6) 이후 ES2016, ES2017 등 매년 새로운 기능이 추가되어 발표되고 있습니다. [호환성 테이블](http://kangax.github.io/compat-table/es6/)을 통해 각 [브라우저](#브라우저)의 ECMAScript 최신 기능 지원 현황을 한눈에 볼 수 있습니다.
 
 ## ESLint
 
@@ -506,6 +526,12 @@ export default function Main({ name }) {
 
 다른 함수를 인자로 받는 함수입니다. 배열(Array)의 메서드인 `map`, `filter`, `reduce`, `forEach` 등이 이에 해당됩니다.
 
+## 깊은 복사
+
+**Deep Copy**
+
+[객체](#객체)나 배열을 복사할 때, [얕은 복사](#얕은-복사)와는 달리 배열 내부에 존재하는 객체나 배열까지 모두 복사하는 방식입니다. 주로 [재귀 함수](#재귀-함수)를 이용해 깊은 복사를 수행할 수 있습니다.
+
 ## 단락 평가
 
 **Short-circuit Evaluation**
@@ -515,9 +541,9 @@ export default function Main({ name }) {
 단락 평가를 사용하면, `if`나 삼항 연산자를 사용하지 않고도 간단한 조건문을 구현할 수 있습니다.
 
 ```javascript
-const val = document.getElementById("name").value
-val && console.log(`당신의 이름은 ${val}입니다.`) // val이 truthy한 경우에만 콘솔 출력
-val || console.log(`이름을 입력하지 않았어요.`) // val이 falsy한 경우에만 콘솔 출력
+const val = document.getElementById("name").value;
+val && console.log(`당신의 이름은 ${val}입니다.`); // val이 truthy한 경우에만 콘솔 출력
+val || console.log(`이름을 입력하지 않았어요.`); // val이 falsy한 경우에만 콘솔 출력
 ```
 
 ## 라이브러리
@@ -530,9 +556,9 @@ val || console.log(`이름을 입력하지 않았어요.`) // val이 falsy한 �
 
 **Rendering**
 
-일반적인 [프론트엔드](#프론트엔드)에서는 [브라우저](#브라우저)가 [HTML](#html), [CSS](#css), [JavaScript](#javascript)를 읽어들여서 사용자가 볼 수 있는 화면을 그리는 것입니다.
+일반적인 [프론트엔드](#프론트엔드)에서는 [브라우저](#브라우저)가 [HTML](#html), [CSS](#css), [JavaScript](#javascript)를 읽어들여서 사용자가 볼 수 있는 화면을 그리는 것을 의미합니다.
 
-[React](#react)에서는 React 엘리먼트가 눈으로 볼 수 있도록 그려지는 것입니다. 렌더링 과정에는 [Virtual DOM](#virtual-dom)을 사용한 DOM 업데이트가 포함됩니다. 렌더링은 [상태](#상태) 및 [프롭](#프롭) 변경, 부모 컴포넌트가 렌더링될 때 발생하며, 강제 재렌더링 기능도 있습니다.
+[React](#react)에서는 React 엘리먼트가 눈으로 볼 수 있도록 그려지는 것을 의미합니다. 렌더링 과정에는 [Virtual DOM](#virtual-dom)을 사용한 DOM 업데이트가 포함됩니다. 렌더링은 [상태](#상태) 및 [프롭](#프롭) 변경, 부모 컴포넌트가 렌더링될 때 발생하며, 강제 재렌더링 기능도 있습니다.
 
 ## 리듀서 함수
 
@@ -627,6 +653,34 @@ const fn2 = () => console.log("나도 함수다.") // 함수 리터럴 (화살�
 
 [React](#react)에서 [JSX](#jsx)를 이용해 [사용자 인터페이스](#사용자-인터페이스)를 작성하는 것이 바로 이 선언형 프로그래밍에 해당합니다.
 
+## 얕은 복사
+
+**Shallow Copy**
+
+[객체](#객체)나 배열을 복사할 때, [깊은 복사](#깊은-복사)와는 달리 중첩된 객체나 배열은 복사하지 않는 방식입니다. [ES6](#es6)에 추가된 스프레드 연산자(...)를 사용하면 얕은 복사를 손쉽게 구현할 수 있습니다.
+
+## 옵셔널 체이닝
+
+**Optional Chaining**
+
+[객체](#객체)가 중첩된 구조에서 특정 값에 접근하려고 할 때, 해당 값이 없다면 일반적으로 `undefined`를 반환하지만, 해당 값을 포함해야 할 객체 자체가 존재하지 않으면 오류가 발생합니다. 특히 [API](#api) 호출로 가져온 [JSON](#json) 객체의 경우 이런 문제가 종종 발생합니다. ES2020에서 추가된 옵셔널 체이닝을 사용하면 객체 내부로 하나씩 접근하는 과정에서 특정한 속성이 존재하지 않으면 바로 `undefined`를 반환하므로 오류를 막을 수 있습니다.
+
+```javascript
+const obj = {
+    students: [
+        {
+            name: "Jeongjoo",
+            hobbies: null
+        }
+    ]
+};
+obj.students[1]; // undefined
+obj.students[1].name; // Uncaught TypeError: Cannot read property 'name' of undefined
+obj.students[1]?.name; // undefined
+const namae = obj.students[1]?.name || "김철수"; // 해당 값이 falsy한 경우 "김철수"를 사용
+const nombre = obj.students[1]?.name ?? "홍길동"; // 해당 값이 null이나 undefined일 경우 "홍길동"을 사용
+```
+
 ## 이벤트
 
 **Event**
@@ -669,6 +723,12 @@ const person1 = new Person("Jeongjoo");
 
 프로그래밍 언어에서 여러 종류의 데이터를 식별하는 분류입니다. [JavaScript](#javascript)에서는 기본 자료형으로 `Number`(수), `String`(문자열), `Boolean`(논리값), `Null`(의도적으로 존재하지 않는 값), `Undefined`(할당되지 않은 값), `Symbol`이 있으며, 별도로 `Object`([객체](#객체))가 존재합니다. 함수(Function), 배열(Array)는 객체에 해당합니다.
 
+## 재귀 함수
+
+**Recursive Function**
+
+자기 자신을 호출하는 함수입니다. 수학에서의 점화식과 유사한 특징을 가지고 있습니다.
+
 ## 컴포넌트
 
 **Component**
@@ -710,6 +770,22 @@ setTimeout(() => {
     console.log("1초가 지났습니다.")
 }, 1000)
 ```
+
+## 콜 스택
+
+**Call Stack**
+
+일반적인 프로그래밍 언어가 작업을 수행하는 방식입니다. 코드는 일반적으로 함수 단위(실행 콘텍스트 단위)로 콜 스택에 들어오며, 나중에 들어온 함수가 먼저 작업을 수행하는 방식으로 모든 작업을 수행합니다.
+
+[JavaScript](#javascript)의 콜 스택은 JavaScript 코어 엔진에 위치합니다. JavaScript는 싱글 스레드 언어이므로, 일반적으로 하나의 콜 스택을 가지고 있습니다.
+
+## 태스크 큐
+
+**Task Queue**
+
+[JavaScript](#javascript)에서 [비동기 프로그래밍](#비동기-프로그래밍)을 처리하는 방식입니다. 비동기 작업의 [콜백 함수](#콜백-함수)는 발생한 순서대로 태스크 큐에 들어가며, 이벤트 루프는 [콜 스택](#콜-스택)이 비어있을 때 태스크 큐에 있는 작업을 먼저 들어온 것부터 하나씩 콜 스택으로 넘겨 처리합니다.
+
+JavaScript의 태스크 큐는 실행 환경인 [브라우저](#브라우저)(또는 [Node.js](#nodejs))에 위치합니다.
 
 ## 프로토타입
 
