@@ -64,18 +64,24 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
                 <a href="#http">HTTP</a>
             </td>
             <td>
+                <a href="#https">HTTPS</a>
+            </td>
+            <td>
                 <a href="#java">Java</a>
             </td>
             <td>
                 <a href="#javascript">JavaScript</a>
             </td>
-            <td>
-                <a href="#json">JSON</a>
-            </td>
         </tr>
         <tr style="text-align: center;">
             <td>
+                <a href="#json">JSON</a>
+            </td>
+            <td>
                 <a href="#jsx">JSX</a>
+            </td>
+            <td>
+                <a href="#nan">NaN</a>
             </td>
             <td>
                 <a href="#nodejs">Node.js</a>
@@ -86,14 +92,17 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#nvm">NVM</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>
+                <a href="#prettier">Prettier</a>
+            </td>
             <td>
                 <a href="#promise">Promise</a>
             </td>
             <td>
                 <a href="#react">React</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#rest-api">REST API</a>
             </td>
@@ -102,6 +111,14 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             </td>
             <td>
                 <a href="#sql">SQL</a>
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>
+                <a href="#ssl">SSL</a>
+            </td>
+            <td>
+                <a href="#sso">SSO</a>
             </td>
             <td>
                 <a href="#typescript">TypeScript</a>
@@ -112,11 +129,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#virtual-dom">Virtual DOM</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#webpack">Webpack</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#www">WWW</a>
             </td>
@@ -132,11 +149,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#고차-함수">고차 함수</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#깊은-복사">깊은 복사</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#단락-평가">단락 평가</a>
             </td>
@@ -152,11 +169,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#리터럴">리터럴</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#메서드">메서드</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#문법적-설탕">문법적 설탕</a>
             </td>
@@ -172,11 +189,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#사용자-인터페이스">사용자 인터페이스</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#상태">상태</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#생성자-함수">생성자 함수</a>
             </td>
@@ -192,11 +209,11 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#옵셔널-체이닝">옵셔널 체이닝</a>
             </td>
-        </tr>
-        <tr style="text-align: center;">
             <td>
                 <a href="#이벤트">이벤트</a>
             </td>
+        </tr>
+        <tr style="text-align: center;">
             <td>
                 <a href="#이벤트-버블링">이벤트 버블링</a>
             </td>
@@ -212,10 +229,13 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
             <td>
                 <a href="#자료형">자료형</a>
             </td>
+            <td>
+                <a href="#재귀-함수">재귀 함수</a>
+            </td>
         </tr>
         <tr style="text-align: center;">
             <td>
-                <a href="#재귀-함수">재귀 함수</a>
+                <a href="#참-같은-값">참 같은 값</a>
             </td>
             <td>
                 <a href="#컴포넌트">컴포넌트</a>
@@ -369,6 +389,12 @@ query {
 
 웹 상에서 정보를 주고받을 수 있는 프로토콜입니다. [HTML](#html) 문서를 주고받거나 [REST API](#rest-api) 요청/응답 시 사용됩니다.
 
+## HTTPS
+
+**HyperText Transfer Protocol Secure**
+
+[HTTP](#http)에서 [SSL](#ssl) 인증서 등을 통한 데이터 암호화를 추가한 프로토콜입니다.
+
 ## Java
 
 1995년 [James Gosling](https://en.wikipedia.org/wiki/James_Gosling)이 개발한 [객체 지향 프로그래밍](#객체-지향-프로그래밍) 언어입니다. [백엔드](#백엔드) 구축 및 Android 프로그래밍에 주로 사용됩니다. [JavaScript](#javascript)와는 이름을 제외하면 관련이 없습니다.
@@ -430,6 +456,17 @@ export default function Main({ name }) {
 }
 ```
 
+## NaN
+
+**Not a Number**
+
+숫자가 아닌 값을 의미합니다. 숫자만 수행할 수 있는 연산에 숫자가 아닌 값을 넣은 경우 `NaN`이 반환됩니다. `NaN`은 [거짓 같은 값](#참-같은-값)이며, 자기 자신과도 같지 않습니다.
+
+```javascript
+NaN === NaN; // false
+!NaN; // true
+```
+
 ## Node.js
 
 [JavaScript](#javascript)로 브라우저 밖에서 서버를 구축하는 등의 코드를 실행할 수 있게 해주는 런타임 환경입니다. 오픈 소스 라이브러리를 통한 뛰어난 확장성을 가지고 있습니다.
@@ -446,9 +483,13 @@ export default function Main({ name }) {
 
 [Node.js](#nodejs)의 버전 관리 도구입니다. 하나의 컴퓨터에서 다양한 버전의 Node.js를 설치하고 전환할 수 있게 해 줍니다.
 
+## Prettier
+
+들여쓰기, 줄바꿈 등의 코드 포매팅을 자동으로 수행하는 도구입니다. [ESLint](#eslint)와 결합하여 사용할 수 있습니다.
+
 ## Promise
 
-[ES6](#es6)부터 추가된 [JavaScript](#javascript) 객체 중 하나로, [비동기 함수](#비동기-프로그래밍)에 의해 반환될 미래의 결괏값을 처리할 수 있는 방법을 제공합니다.
+[ES6](#es6)부터 추가된 [JavaScript](#javascript) 객체 중 하나로, [비동기 함수](#비동기-프로그래밍)에 의해 반환될 미래의 결괏값을 처리할 수 있는 방법을 제공합니다. ES2017 이후로는 [문법적 설탕](#문법적-설탕)에 해당하는 `async` 구문으로 대체할 수 있습니다.
 
 ## React
 
@@ -471,6 +512,18 @@ export default function Main({ name }) {
 **Structured Query Language**
 
 관계형 데이터베이스 관리 시스템의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어입니다. 관계형 데이터베이스 관리 시스템에서 자료의 검색과 관리, 데이터베이스 스키마 생성과 수정, 데이터베이스 객체 접근 조정 관리를 위해 고안되었습니다.
+
+## SSL
+
+**Secure Sockets Layer**
+
+두 서버 사이에 전송된 데이터를 암호화하여 인터넷 연결의 보안을 유지하는 암호 규약입니다.
+
+## SSO
+
+**Single Sign On**
+
+한 번의 인증 과정으로 여러 컴퓨터 상의 자원을 이용 가능하게 하는 인증 기능입니다. 네이버 아이디나 SNS 계정을 통해 다른 사이트의 로그인을 수행할 수 있는 것도 이에 해당합니다.
 
 ## TypeScript
 
@@ -534,7 +587,7 @@ export default function Main({ name }) {
 
 ## 단락 평가
 
-**Short-circuit Evaluation**
+**Short-Circuit Evaluation**
 
 조건 연산자 사용 시, 다른 우선 순위가 없다면 왼쪽 조건을 평가하고 필요한 경우에만 오른쪽 조건을 평가하는 것입니다. 가령, OR (`||`) 연산자를 사용할 때 왼쪽 조건이 `true`라면 오른쪽 조건과 상관없이 전체가 `true`가 되므로 오른쪽 조건을 평가하지 않습니다. AND (`&&`) 연산자는 반대로 작동합니다.
 
@@ -542,8 +595,8 @@ export default function Main({ name }) {
 
 ```javascript
 const val = document.getElementById("name").value;
-val && console.log(`당신의 이름은 ${val}입니다.`); // val이 truthy한 경우에만 콘솔 출력
-val || console.log(`이름을 입력하지 않았어요.`); // val이 falsy한 경우에만 콘솔 출력
+val && console.log(`당신의 이름은 ${val}입니다.`); // val이 참 같은 값인 경우에만 콘솔 출력
+val || console.log(`이름을 입력하지 않았어요.`); // val이 거짓 같은 값인 경우에만 콘솔 출력
 ```
 
 ## 라이브러리
@@ -565,6 +618,14 @@ val || console.log(`이름을 입력하지 않았어요.`); // val이 falsy한 �
 **Reducer Function**
 
 현재 값(상태)을 받아서 새 값(상태)을 반환하는 함수입니다. 주로 두 개의 인자(기존 값, 새로운 값)를 받아 하나의 값으로 병합하여 반환하고, 반한된 값이 기존 값이 되는 과정을 반복하여 모든 값들을 합쳐서 하나로 만듭니다. 배열의 `reduce()` 메서드, [React](#react)의 useReducer [Hook](#hooks) 등이 이에 해당합니다.
+
+```javascript
+const arr = [10, 20, 30, 40];
+const sum = arr.reduce(
+    (accumulatedValue, newValue) => accumulatedValue + newValue,
+    0 // initial value
+); // 100
+```
 
 ## 리터럴
 
@@ -659,6 +720,11 @@ const fn2 = () => console.log("나도 함수다.") // 함수 리터럴 (화살�
 
 [객체](#객체)나 배열을 복사할 때, [깊은 복사](#깊은-복사)와는 달리 중첩된 객체나 배열은 복사하지 않는 방식입니다. [ES6](#es6)에 추가된 스프레드 연산자(...)를 사용하면 얕은 복사를 손쉽게 구현할 수 있습니다.
 
+```javascript
+const arr1 = [30, 50, [70, 90, 110], 130];
+const arr2 = [...arr1]; // 얕은 복사
+```
+
 ## 옵셔널 체이닝
 
 **Optional Chaining**
@@ -677,8 +743,8 @@ const obj = {
 obj.students[1]; // undefined
 obj.students[1].name; // Uncaught TypeError: Cannot read property 'name' of undefined
 obj.students[1]?.name; // undefined
-const namae = obj.students[1]?.name || "김철수"; // 해당 값이 falsy한 경우 "김철수"를 사용
-const nombre = obj.students[1]?.name ?? "홍길동"; // 해당 값이 null이나 undefined일 경우 "홍길동"을 사용
+const namae = obj.students[1]?.name || "김철수"; // 해당 값이 거짓 같은 값인 경우 "김철수"를 사용
+const nombre = obj.students[1]?.name ?? "홍길동"; // 해당 값이 null 또는 undefined일 경우 "홍길동"을 사용
 ```
 
 ## 이벤트
@@ -728,6 +794,16 @@ const person1 = new Person("Jeongjoo");
 **Recursive Function**
 
 자기 자신을 호출하는 함수입니다. 수학에서의 점화식과 유사한 특징을 가지고 있습니다.
+
+## 참 같은 값
+
+**Truthy/Falsy Value**
+
+[JavaScript](#javascript)에서는 문맥에 따라 [자료형](#자료형) 변환이 이루어지므로, 모든 값은 조건문 등에서 `true` 혹은 `false`로 평가될 수 있습니다. 아래 표에 따라 거짓 같은 값이 아니면 모두 참 같은 값입니다. 예를 들어, 빈 배열 `[]`, 빈 객체 `{}`도 참으로 분류됩니다.
+
+| 참 같은 값 | 거짓 같은 값 |
+| --- | --- |
+| 나머지 모든 값 | `0`, `-0`, `''`, `null`, `undefined`, `NaN` | 
 
 ## 컴포넌트
 
