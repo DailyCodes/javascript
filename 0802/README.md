@@ -46,17 +46,17 @@ child.prop = "new value"                            // 상속받은 객체에 �
 1. 첫 번째 Parent는 line1, function에서 선언한 것이 전부이므로 아무것도 정의되어 있지 않습니다.
 
 > Parent.prop : undefined
-[Parent.](http://parent.foo/)last_name = undefined
+> Parent.last_name = undefined
 
 1. 두 번째 Parent.prototype은 Parent 객체를 다른 객체가 상속받을 때 참조하는 속성값으로 line3에 속성 last_name 가 정의되어 있습니다.
 
 > Parent.prototype.prop : undefined
-Parent.prototype.last_name : kim
+> Parent.prototype.last_name : kim
 
 1. 마지막 child 객체는 line 8에서 Parent 객체를 상속받은 객체로 line 9에서 새로운 속성 prop을 선언하였습니다. 이는 상속받지 않은 고유의 속성과 상속받은 속성 last_name 모두 정의할 수 있습니다.
 
 > child.prop : new value
-child.last_name : kim
+> child.last_name : kim
 
 ## **참고 문헌**
 
