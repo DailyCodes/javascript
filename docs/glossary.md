@@ -6,7 +6,7 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 
 > 위키백과, 러닝 리액트 (2판) 등을 참고했습니다.
 
-<a style="display:scroll;position:fixed;bottom:10px;right:10px;" href="#">TOP</a>
+<a style="display:scroll;position:fixed;bottom:10px;right:10px;" href="#웹-프론드엔드-용어집">TOP</a>
 
 <table>
     <thead>
