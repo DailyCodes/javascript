@@ -6,6 +6,8 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 
 > 위키백과, 러닝 리액트 (2판) 등을 참고했습니다.
 
+<a style="display:scroll;position:fixed;bottom:10px;right:10px;" href="#">TOP</a>
+
 <table>
     <thead>
         <tr>
@@ -285,6 +287,8 @@ JavaScript 프로그래밍 및 React에서 자주 쓰이는 용어를 간단하�
 **Asynchronous JavaScript And XML**
 
 [JavaScript](#javascript)와 [XML](#xml)을 이용한 비동기적 정보 교환 기법입니다. 페이지를 새로 불러 오지 않고도 동적으로 새로운 정보를 업데이트할 수 있습니다. 가령, Twitter 타임라인에서 새로운 트윗을 보기 위해 F5 키를 눌러 새로 고침해야 할 필요가 없습니다.
+
+[]
 
 ## API
 
