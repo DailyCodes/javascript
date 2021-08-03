@@ -1,0 +1,18 @@
+/*
+여기에 CSS 코드를 작성합니다.
+*/
+table,
+td {
+    border: 1px solid #333;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+tfoot,
+thead {
+    background-color: #333;
+    color: #fff;
+}

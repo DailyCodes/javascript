@@ -99,8 +99,8 @@
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="4">API</td>
-            <td style="text-align: center;">JSON</td>
-            <td style="text-align: left;">JSON 데이터 불러오기, 저장하기<br>- 다른 파일들과 같은 경로에 <code>data.json</code> 파일 생성<br>- Fetch API로 <code>data.json</code> 불러오기<br>- JSON 객체를 불러와서 수정하기<br>- JSON 파일 저장하기 (선택 사항 - optional)</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0803.html">JSON</a></td>
+            <td style="text-align: left;"><a href="/javascript/0803/">JSON 데이터 불러오기, 저장하기</a><br>- 다른 파일들과 같은 경로에 <code>data.json</code> 파일 생성<br>- Fetch API로 JSON 파일 불러오기<br>- JSON 객체를 불러와서 수정, 저장하기 (선택 사항 - optional)</td>
         </tr>
         <tr>
             <td style="text-align: center;">API</td>
