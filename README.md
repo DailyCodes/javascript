@@ -125,7 +125,7 @@
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="2">Node.js</td>
-            <td style="text-align: center;">웹 서버 기초</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0804.html">웹 서버 기초</a></td>
             <td style="text-align: left;">입력한 URL에 따라 다른 값을 반환하는 웹 서버 만들기<br>- switch문 사용</td>
         </tr>
         <tr>
