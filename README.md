@@ -103,8 +103,8 @@
             <td style="text-align: left;"><a href="/javascript/0803/">JSON 데이터 불러오기, 저장하기</a><br>- 다른 파일들과 같은 경로에 <code>data.json</code> 파일 생성<br>- Fetch API로 JSON 파일 불러오기<br>- JSON 객체를 불러와서 수정, 저장하기 (선택 사항 - optional)</td>
         </tr>
         <tr>
-            <td style="text-align: center;">API</td>
-            <td style="text-align: left;">영화 정보 검색 사이트 만들기<br>- 텍스트 상자에 영화명을 입력하고, 엔터 키를 누르면 검색<br>- 데이터는 예쁘게 보여주거나 가공하지 않아도 됨<br>- <a href="https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do" target="_blank">영화진흥위원회 공개 API</a> 활용</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0805.html">API</a></td>
+            <td style="text-align: left;"><a href="/javascript/0805/">영화 정보 검색 사이트 만들기</a><br>- 텍스트 상자에 영화명을 입력하고, 엔터 키를 누르면 검색<br>- 데이터는 예쁘게 보여주거나 가공하지 않아도 됨<br>- <a href="https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do" target="_blank">영화진흥위원회 공개 API</a> 활용</td>
         </tr>
         <tr>
             <td style="text-align: center;">위키백과 크롤링</td>
