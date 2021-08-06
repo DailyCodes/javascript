@@ -81,8 +81,8 @@
             <td style="text-align: left;"><a href="/javascript/0731/">현재 위치를 바로 확인할 수 있는 Google 지도 링크 만들기</a><br>- <code>navigator.geolocation.getCurrentPosition()</code>은 콜백을 이용하는 비동기 함수이지만, Promise로 재정의 (<code>return new Promise()</code>)<br>- <code>.then</code>을 이용하여 위치 정보를 받아온 후에, Google 지도로 연결되는 링크 생성 (<code>`https://www.google.com/maps/@${위도},${경도}`</code>)<br>- 웹 페이지에 구글 지도 첨부하기 (참고 링크) (선택 사항 - optional)</td>
         </tr>
         <tr>
-            <td style="text-align: center;">async/await</td>
-            <td style="text-align: left;">Promise로 작성한 코드를 <code>async/await</code>으로 다시 작성하기</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0806.html">async/await</a></td>
+            <td style="text-align: left;">Promise로 작성한 코드를 <code>async/await</code>으로 <a href="/javascript/0806/">다시 작성하기</a></td>
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="3">이벤트</td>
