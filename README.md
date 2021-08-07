@@ -120,7 +120,7 @@
             <td style="text-align: left;"><code>index.html</code>에 HTML 요소를 직접 작성하지 않고, 오직 JavaScript만으로 필요한 HTML 요소를 추가하여 웹 페이지 만들기<br>- 단, 'Hello World' 한 줄만 추가하면 안 되고, 비교적 복잡한 HTML 요소들을 사용하여 성의있게 작성해야 함<br>- 웹 브라우저에서 JavaScript 사용을 중지시킨 다음에 웹 페이지 다시 로드하기 </td>
         </tr>
         <tr>
-            <td style="text-align: center;"><a href="/javascript/docs/0807.html">반응형 웹</ㅁ></td>
+            <td style="text-align: center;"><a href="/javascript/docs/0807.html">반응형 웹</a></td>
             <td style="text-align: left;"><a href="/javascript/0807/">같은 페이지에서 데스크톱과 모바일을 모두 지원하는 사이트 만들기</a>(<code>Window.innerWidth</code>, <code>Window.innerHeight</code>)<br>- 데스크톱에서 접속했을 때, 화면에 "데스크톱" 표시<br>- 모바일에서 접속했을 때, 화면에 "모바일" 표시<br>- 현재 화면 크기 및 화면 크기 변화를 인식할 수 있어야 함</td>
         </tr>
         <tr>
