@@ -1,12 +1,12 @@
-window.addEventListener('resize', function(){
+const statusPara = document.getElementById('status')
+const resizeFn = (e) => {
+    const widthSize = e.target.innerWidth;
+    const heightSize = e.target.innerHeight;
+    console.log("window size changed")
+    statusPara.innerText = ((widthSize <= 1300 && heightSize <= 700) || (widthSize < heightSize))
+        ? "*모바일 화면입니다*"
+        : "*PC 화면입니다*"
+}
 
-    let widthSize = window.innerWidth;
-    let heightSize = window.innerHeight;
-
-    if (widthSize <= 1300 || heightSize <= 700) {
-    console.log("*모바일 화면입니다*");
-    }
-    else {
-    console.log("*PC 화면입니다*"); 
-    }
-})
+window.addEventListener('load', resizeFn)
+window.addEventListener('resize', resizeFn)
