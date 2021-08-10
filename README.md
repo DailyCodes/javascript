@@ -94,8 +94,8 @@
             <td style="text-align: left;"><a href="/javascript/0728/">중첩된 상자 만들기</a><br>- <strong>div</strong> 태그로 검은색 상자를 만들고(<code>background: black;</code>), 다시 그 안에 <strong>div</strong> 태그로 노란색 상자를 만듦(<code>background: yellow;</code>)<br>- 검은색 상자가 있는 영역을 클릭하면 'black'이라는 alert 메세지만 출력하고 상자 색깔이 노란색으로 바뀜, 노란색 상자가 있는 영역을 클릭하면 'yellow'이라는 alert 메세지만 출력하고 상자 색깔이 검은색으로 바뀜</td>
         </tr>
         <tr>
-            <td style="text-align: center;">디바운싱, 쓰로틀링</td>
-            <td style="text-align: left;">키보드 이벤트에 디바운싱, 스크롤 이벤트에 쓰로틀링 적용하기<br>- 이벤트 발생 시 콘솔에 출력</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0809.html">디바운싱, 쓰로틀링</a></td>
+            <td style="text-align: left;"><a href="/javascript/0809/">키보드 이벤트에 디바운싱, 스크롤 이벤트에 쓰로틀링 적용하기</a><br>- 이벤트 발생 시 콘솔에 출력</td>
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="4">API</td>
@@ -146,9 +146,13 @@
             <td style="text-align: left;">기존 JavaScript로 작성한 코드를 가져와 TypeScript로 바꾸기<br>- 단, 'Hello World' 같은 단순한 것은 안됨</td>
         </tr>
         <tr>
-            <td style="text-align: center;">기타</td>
+            <td style="text-align: center;" colspan="2">기타</td>
             <td style="text-align: center;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0729/">사람별 운세 추가하기</a><br>- 스프레드 연산자 이용</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><a href="/javascript/docs/0810.html">옵셔널 체이닝</a></td>
+            <td style="text-align: left;"><a href="/javascript/0810/">주어진 JSON 객체를 불러와 파일명을 하나씩 표시하기</a><br>- 옵셔널 체이닝 이용</td>
         </tr>
     </tbody>
 </table>
