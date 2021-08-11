@@ -116,8 +116,8 @@
         </tr>
         <tr>
             <td style="text-align: center;" rowspan="2">브라우저, DOM</td>
-            <td style="text-align: center;">DOM 조작</td>
-            <td style="text-align: left;"><code>index.html</code>에 HTML 요소를 직접 작성하지 않고, 오직 JavaScript만으로 필요한 HTML 요소를 추가하여 웹 페이지 만들기<br>- 단, 'Hello World' 한 줄만 추가하면 안 되고, 비교적 복잡한 HTML 요소들을 사용하여 성의있게 작성해야 함<br>- 웹 브라우저에서 JavaScript 사용을 중지시킨 다음에 웹 페이지 다시 로드하기 </td>
+            <td style="text-align: center;"><a href="/javascript/docs/0811.html">DOM 조작</a></td>
+            <td style="text-align: left;"><code>index.html</code>에 HTML 요소를 직접 작성하지 않고, <a href="/javascript/0811/">오직 JavaScript만으로 필요한 HTML 요소를 추가하여 웹 페이지 만들기</a><br>- 단, 'Hello World' 한 줄만 추가하면 안 되고, 비교적 복잡한 HTML 요소들을 사용하여 성의있게 작성해야 함<br>- 웹 브라우저에서 JavaScript 사용을 중지시킨 다음에 웹 페이지 다시 로드하기 </td>
         </tr>
         <tr>
             <td style="text-align: center;"><a href="/javascript/docs/0807.html">반응형 웹</a></td>
@@ -146,7 +146,7 @@
             <td style="text-align: left;">기존 JavaScript로 작성한 코드를 가져와 TypeScript로 바꾸기<br>- 단, 'Hello World' 같은 단순한 것은 안됨</td>
         </tr>
         <tr>
-            <td style="text-align: center;" colspan="2">기타</td>
+            <td style="text-align: center;" rowspan="2">기타</td>
             <td style="text-align: center;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0729/">사람별 운세 추가하기</a><br>- 스프레드 연산자 이용</td>
         </tr>
