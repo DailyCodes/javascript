@@ -1,76 +1,79 @@
 # DOM
 
-The Document Object Model
+## DOM이란 무엇이며, HTML 문서 자체와는 어떻게 다른가?
+
+[문서 객체 모델](/javascript/docs/glossary.html#dom)(Document Object Model, 이하 DOM)은 [HTML](/javascript/docs/glossary.html#html) 및 [XML](/javascript/docs/glossary.html#xml) 문서의 프로그래밍 인터페이스입니다. DOM은 문서의 구조화된 표현을 제공하며, 프로그래밍 언어가 DOM 구조에 접근할 수 있는 방법을 제공하여 그들이 문서 구조, 그타일 내용 등을 변경할 수 있게 돕습니다.
+
+## DOM을 조작하는 방법을 각각 설명하시오.
+
+* 특정 HTML 요소 찾기 (최소 3가지 방법)
+
+    ```javascript
+    document.getElementById();
+    ```
+    파라미터로 찾으려는 id를 전달하여, HTML 엘리먼트를 찾습니다. id는 유일한 값이므로 하나의 엘리먼트만 리턴하게 됩니다.
+
+    ```javascript
+    document.getElementsByClassName();
+    ```
+    파라미터로 클래스 이름을 전달하여, 해당 클래스 이름을 가진 모든 HTML 엘리먼트들을 찾습니다.
 
 
-## 1. DOM이란 무엇이며, HTML 문서 자체와는 어떻게 다른가?
-문서 객체 모델(The Document Object Model, 이하 DOM)은 HTML, XML 문서의 프로그래밍 인터페이스입니다.DOM은 문서의 구조화된 표현을 제공하며, 프로그래밍 언어가 DOM 구조에 접금할 수 있는 방법을 제공하여 그들이 문서 구조, 그타일 내용 등을 변경할 수 있게 돕습니다.
+    ```javascript
+    document.getElementByTagName();
+    ```
+    태그 이름을 파라미터로 받아 엘리먼트들을 찾습니다. 예를 들어, 'div'을 파라미터로 넘겼다면 `div` 태그를 모두 찾아줍니다.
 
-## 2. DOM을 조작하는 방법을 각각 설명하시오.
-- 특정 HTML 요소 찾기 (최소 3가지 방법) (Document.querySelector()와 Document.querySelectorAll()의 차이점은?)
-```javascript
-document.getElementById();
-```
-파라미터로 찾으려는 id를 전달하여, HTML 엘리먼트를 찾습니다. id는 유일한 값이므로 하나의 엘리먼트만 리턴하게 됩니다.
+    ```javascript
+    document.querySelector();
+    document.querySelectorAll();
+    ```
+    css 선택자를 파라미터로 받아 엘리먼트들을 찾습니다. `querySelector()`는 가장 위에 있는 하나의 엘리먼트만을, `querySelectorAll()`은 css 선택자로 선택된 모든 엘리먼트들을 찾아줍니다.
 
-```javascript
-document.getElementsByClassName();
-```
-파라미터로 클래스 이름을 전달하여, 해당 클래스 이름을 가진 모든 HTML 엘리먼트들을 찾습니다.
+    ```javascript
+    document.querySelector('#div_1'); // id
+    document.querySelector('.my_class'); // class
+    document.querySelector('div'); // tag
+    ```
 
+* HTML 요소 추가
 
-```javascript
-document.getElementByTagName();
-```
-태그 이름을 파라미터로 받아 엘리먼트들을 찾습니다. 예를 들어, 'div'을 파라미터로 넘겼다면 div 태그를 모두 찾아줍니다.
+    ```javascript
+    document.createElement('h1');
+    ```
+    파라미터로 입력한 엘리먼트를 만듭니다. 'h1'을 입력하면 `h1` 엘리먼트를 만듭니다.
 
+* HTML 요소 변경 (Attribute 변경, 자식 요소 추가)
 
-```javascript
-document.querySelector();
-document.querySelectorAll()
-```
-css 선택자를 파라미터로 받아 엘리먼트들을 찾습니다. querySelector()는 가장 위에 있는 하나의 엘리먼트만을, querySelectorAll()은 css 선택자로 선택된 모든 엘리먼트들을 찾아줍니다.
+    ```javascript
+    const btn = document.createElement('button');
+    const text = document.createTextNode('Click');
+    btn.appendChild(text);
+    ```
+    `createTextNode()`를 사용해 다른 엘리먼트 아래에 텍스트 노드를 생성합니다.
 
-```javascript
-document.querySelector('#div_1'); // id
-document.querySelector('.my_class'); // class
-document.querySelector('div'); // tag
-```
+* HTML 요소 삭제
 
-- HTML 요소 추가
+    ```javascript
+    const header = document.querySelector("h1");
+    document
+        .body
+        .removeChild(header);
+    ```
+    위와 같이 엘리먼트를 삭제하거나,
 
-```javascript
-document.createElement('h1');
-```
-파라미터로 입력한 엘리먼트를 만듭니다. 'h1'을 입력하면 h1 엘리먼트를 만듭니다.
-
-- HTML 요소 변경 (Attribute 변경, 자식 요소 추가)
-
-```javascript
-btn = document.createElement('button');
-text = document.createTextNode( 'Click' );
-btn.appendChild(text);
-```
-createTextNode()를 사용해 다른 엘리먼트 아래에 텍스트를 저장하고
-
-- HTML 요소 삭제
-```javascript
-var header = document.querySelector("h1");
-document.body.removeChild(header);
-```
-위와 같이 엘리먼트를 삭제하거나,
-
-```javascript
-var header = document.querySelector("h1");	//제거하고자 하는 엘리먼트
-header.parentNode.removeChild(header);
-
-```
-부모 노드를 기준으로 엘리먼트를 삭제할 수 있습니다.
+    ```javascript
+    const header = document.querySelector("h1"); //제거하고자 하는 엘리먼트
+    header
+        .parentNode
+        .removeChild(header);
+    ```
+    부모 노드를 기준으로 엘리먼트를 삭제할 수 있습니다.
 
 
-## 3. DOM 조작을 '명령형'으로 하는 것과 '선언형'으로 하는 것은 각각 무엇이며, 어떤 예시가 있는가?
+## DOM 조작을 '명령형'으로 하는 것과 '선언형'으로 하는 것은 각각 무엇이며, 어떤 예시가 있는가?
 
-명령형 프로그래밍은 무엇을 어떻게 할 것인가에 가깝고, 선언형 프로그래밍은 무엇을 할 것인가에 가깝습니다.
+명령형 프로그래밍은 개별적인 작업을 어떻게 할 것인가에 가깝고, [선언형 프로그래밍](/javascript/docs/glossary.html#선언형-프로그래밍)은 최종적인 결과로 무엇을 보여줄 것인가에 가깝습니다.
 
 ```javascript
 // 버튼이 클릭 되었을 때 highlight 클래스를 토글하는 jquerylistener
@@ -82,6 +85,12 @@ $("#btn").click(function() {
 ```
 
 ```javascript
-<Btn onToggleHighlight={this.handleToggleHighlight} highlight={this.state.highlight}> {this.state.buttonText} </Btn>
+<Button
+    onToggleHighlight={this.handleToggleHighlight}
+    highlight={this.state.highlight}>
+>
+    {this.state.buttonText}
+</Button>
 ```
-아래의 코드는 리액트 문법을 사용하여,(선언적으로 작성하여) 코드 수를 줄이고 '어떻게'보다 '무엇을'에 집중하였습니다.
+
+아래의 코드는 [React](/javascript/docs/glossary.html#react) 문법을 사용하여 선언적으로 작성했습니다. 코드 수를 줄이고 '어떻게'보다 '무엇을'에 집중하였습니다.
