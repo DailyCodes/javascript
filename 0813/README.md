@@ -24,6 +24,31 @@ HTML 텍스트를 파싱(parse)한다는 것은, 웹 페이지에 있는 데이�
 
 ## 특정 HTML 요소(Element)에서 텍스트만 추출하는 방법은 무엇인가?(2가지)
 
-```javascript
+특정 HTML 요소(Element)에서 텍스트만 추출하는 방법은 다음과 같습니다.
 
+* `Node.innerText`: 불필요한 공백을 제거하고 텍스트로 반환합니다.
+* `Node.textContent`: 모든 텍스트를 그대로 가져옵니다.
+
+위의 두 가지 방법은 텍스트노드를 추가한다는 점과 해당 `element`의 텍스트 값을 반환한다는 공통점을 지닙니다. 따라서 두 가지 방법 모두 어떤 텍스트를 가지고 있는지 알 수 있습니다. 각각의 방법은 또한 차이점을 지닙니다. 아래의 예제를 통해 확인해봅시다.
+
+```javascript
+<p>   Hello   JavaScript   Relay   </p>
 ```
+
+각각의 프로퍼티를 사용해 텍스트를 가져오면 그 결과가 달라짐을 알 수 있습니다.
+
+* `innerText`를 사용한 경우
+    ```javascript
+    let msg = document.querySelector('p').innerText;
+    console.log(msg);
+
+    Hello JavaScript Relay // 출력 결과
+    ```
+
+* `textContent`를 사용한 경우
+    ```javascript
+    let msg = document.querySelector('p').innerText;
+    console.log(msg);
+
+       Hello   JavaScript   Relay   // 출력 결과
+    ```
