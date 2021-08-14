@@ -107,8 +107,8 @@
             <td style="text-align: left;"><a href="/javascript/0805/">영화 정보 검색 사이트 만들기</a><br>- 텍스트 상자에 영화명을 입력하고, 엔터 키를 누르면 검색<br>- 데이터는 예쁘게 보여주거나 가공하지 않아도 됨<br>- <a href="https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do" target="_blank">영화진흥위원회 공개 API</a> 활용</td>
         </tr>
         <tr>
-            <td style="text-align: center;">위키백과 크롤링</td>
-            <td style="text-align: left;">위키백과 크롤러 만들기<br>- 위키백과 API (<a href="https://www.mediawiki.org/wiki/API:Parsing_wikitext" target="_blank">Parsing Wikitext</a>)를 활용하여 HTML 가져오기 (Fetch API)<br>- HTML을 파싱하여 일반 텍스트로 변환하기 (<code>DOMParser.parseFromString()</code>)<br>- 해당 문서가 없을 경우의 예외 처리</td>
+            <td style="text-align: center;"><a href="/javascript/docs/0813.html">웹 크롤링</a></td>
+            <td style="text-align: left;"><a href="/javascript/0813/">위키백과 크롤러 만들기</a><br>- 위키백과 API (<a href="https://www.mediawiki.org/wiki/API:Parsing_wikitext" target="_blank">Parsing Wikitext</a>)를 활용하여 HTML 가져오기 (Fetch API)<br>- HTML을 파싱하여 일반 텍스트로 변환하기 (<code>DOMParser.parseFromString()</code>)<br>- 해당 문서가 없을 경우의 예외 처리</td>
         </tr>
         <tr>
             <td style="text-align: center;">REST API</td>
@@ -146,9 +146,13 @@
             <td style="text-align: left;">기존 JavaScript로 작성한 코드를 가져와 TypeScript로 바꾸기<br>- 단, 'Hello World' 같은 단순한 것은 안됨</td>
         </tr>
         <tr>
-            <td style="text-align: center;" rowspan="2">기타</td>
+            <td style="text-align: center;" rowspan="3">기타</td>
             <td style="text-align: center;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0729/">사람별 운세 추가하기</a><br>- 스프레드 연산자 이용</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><a href="/javascript/docs/0812.html">연산자 복습</a></td>
+            <td style="text-align: left;"><a href="/javascript/0812/">단락 평가를 통해 조건식 만들기</a><br>- README에서 다룬 내용을 콘솔에 출력</td>
         </tr>
         <tr>
             <td style="text-align: center;"><a href="/javascript/docs/0810.html">옵셔널 체이닝</a></td>
