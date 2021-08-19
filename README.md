@@ -43,7 +43,7 @@
     </thead>
     <tbody>
         <tr>
-            <td style="text-align: center;" rowspan="9">객체</td>
+            <td style="text-align: center;" rowspan="10">객체</td>
             <td style="text-align: center;"><a href="/javascript/docs/0724.html">객체 생성자</a></td>
             <td style="text-align: left;"><a href="/javascript/0724/">사칙연산을 지원하는 계산기 만들기</a><br>- 필요한 속성 및 사칙연산 메서드를 가지는 객체를 생성하고, <code>new</code> 키워드로 생성할 수 있도록 해야 함<br>- 단, 나눗셈은 소수 둘째 자리까지만 표시 (반올림)<br>- 부호 바꾸기 (양수→음수, 음수→양수)<br>- 숫자 (0~9) 및 기호(+, -, *, /, =)는 버튼으로 만들기</td>
         </tr>
@@ -74,6 +74,10 @@
         <tr>
             <td style="text-align: center;"><a href="/javascript/docs/0816.html">오류 객체 2</a></td>
             <td style="text-align: left;"><a href="/javascript/0816/">각 오류가 발생하는 코드와 해결(디버깅) 방법</a></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><a href="/javascript/docs/0817.html">null, undefined</a></td>
+            <td style="text-align: left;"><a href="/javascript/0817/">null, undefined 값을 구별하거나 대응하는 코드</a><br>- 단락 평가 또는 null 병합 연산자(??) 이용</td>
         </tr>
         <tr>
             <td style="text-align: center;"><a href="/javascript/docs/0810.html">옵셔널 체이닝</a></td>
@@ -158,13 +162,21 @@
             <td style="text-align: left;">기존 JavaScript로 작성한 코드를 가져와 TypeScript로 바꾸기<br>- 단, 'Hello World' 같은 단순한 것은 안됨</td>
         </tr>
         <tr>
-            <td style="text-align: center;" rowspan="2">기타</td>
+            <td style="text-align: center;" rowspan="4">기타</td>
             <td style="text-align: center;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0729/">사람별 운세 추가하기</a><br>- 스프레드 연산자 이용</td>
         </tr>
         <tr>
             <td style="text-align: center;"><a href="/javascript/docs/0812.html">연산자 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0812/">단락 평가를 통해 조건식 만들기</a><br>- README에서 다룬 내용을 콘솔에 출력</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><a href="/javascript/docs/0818.html">빠른 코드 작성을 위한 팁 1</a></td>
+            <td style="text-align: left;">README 참고</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><a href="/javascript/docs/0819.html">빠른 코드 작성을 위한 팁 2</a></td>
+            <td style="text-align: left;">README 참고</td>
         </tr>
     </tbody>
 </table>
