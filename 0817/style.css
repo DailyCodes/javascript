@@ -1,0 +1,13 @@
+/*
+여기에 CSS 코드를 작성합니다.
+*/
+body {
+    text-align: center;
+}
+
+#list {
+    margin: auto;
+    border: black solid 1px;
+    border-radius: 10px;
+    text-align: left;
+}

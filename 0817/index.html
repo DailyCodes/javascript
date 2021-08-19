@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 문서 제목 작성 -->
+        <title>문서 제목</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- 문서 본문 작성 -->
+        <h1>각 버튼을 누르면 다음의 순서로 경고문을 띄웁니다.</h1>
+        <div id="list">
+            <ul>
+                <li>일치(===) 연산자를 통해
+                    <code>null</code>
+                    또는
+                    <code>undefined</code>
+                    값인지 확인</li>
+                <li>OR(||) 연산자를 통해 거짓 같은 값인지 확인</li>
+                <li>null 병합(??) 연산자를 통해
+                    <code>null</code>
+                    또는
+                    <code>undefined</code>
+                    값인지 확인</li>
+            </ul>
+        </div>
+        <button id="zero">0</button>
+        <button id="one">1</button>
+        <button id="blank">''</button>
+        <button id="space">' '</button>
+        <button id="true">true</button>
+        <button id="false">false</button>
+        <button id="null">null</button>
+        <button id="undefined">undefined</button>
+        <script src="script.js"></script>
+    </body>
+</html>
