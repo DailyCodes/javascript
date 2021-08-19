@@ -171,12 +171,10 @@
             <td style="text-align: left;"><a href="/javascript/0812/">단락 평가를 통해 조건식 만들기</a><br>- README에서 다룬 내용을 콘솔에 출력</td>
         </tr>
         <tr>
-            <td style="text-align: center;"><a href="/javascript/docs/0818.html">빠른 코드 작성을 위한 팁 1</a></td>
-            <td style="text-align: left;">README 참고</td>
+            <td style="text-align: center;" colspan="2"><a href="/javascript/docs/0818.html">빠른 코드 작성을 위한 팁 1</a></td>
         </tr>
         <tr>
-            <td style="text-align: center;"><a href="/javascript/docs/0819.html">빠른 코드 작성을 위한 팁 2</a></td>
-            <td style="text-align: left;">README 참고</td>
+            <td style="text-align: center;" colspan="2"><a href="/javascript/docs/0819.html">빠른 코드 작성을 위한 팁 2</a></td>
         </tr>
     </tbody>
 </table>
