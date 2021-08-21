@@ -208,6 +208,7 @@ const getName = (user_id) => {
 ### async/await
 
 ES2017에서 추가된 async/await은 기본적으로 Promise의 [문법적 설탕](/javascript/docs/glossary.html#문법적-설탕)으로, 비동기 코드를 마치 동기 코드처럼 작성할 수 있는 편리함을 제공합니다.
+* `async` 키워드로 선언된 함수에서만 `await` 키워드를 사용할 수 있습니다. 
 
 ```javascript
 function resolveAfter2Seconds(x) {
