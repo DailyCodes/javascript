@@ -162,7 +162,7 @@
             <td style="text-align: left;">기존 JavaScript로 작성한 코드를 가져와 TypeScript로 바꾸기<br>- 단, 'Hello World' 같은 단순한 것은 안됨</td>
         </tr>
         <tr>
-            <td style="text-align: center;" rowspan="4">기타</td>
+            <td style="text-align: center;" rowspan="5">기타</td>
             <td style="text-align: center;"><a href="/javascript/docs/0729.html">ES6 복습</a></td>
             <td style="text-align: left;"><a href="/javascript/0729/">사람별 운세 추가하기</a><br>- 스프레드 연산자 이용</td>
         </tr>
@@ -175,6 +175,9 @@
         </tr>
         <tr>
             <td style="text-align: center;" colspan="2"><a href="/javascript/docs/0819.html">빠른 코드 작성을 위한 팁 2</a></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="2"><a href="/javascript/docs/0821.html">코드의 재구성</a></td>
         </tr>
     </tbody>
 </table>
