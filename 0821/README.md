@@ -110,6 +110,9 @@ const greeting = (username = 'anonymous', date = new Date(), message = 'hello') 
 for (var value of myArray) {
     console.log(value); //값입니다. for ~ in처럼 속성의 key가 아닙니다.
 }
+myArray.forEach((value) => {
+    console.log(value);
+})
 ```
 
 ## 스프레드 연산자, 구조 분해 할당 사용하기
